@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css';
 import Container from './General/Container';
 
 const Form = () => {
@@ -7,10 +8,10 @@ const Form = () => {
       <form action='/' method='POST'>
         <Container divs={['o-flexy@lg o-flexy--top form__bar']}>
           <Container divs={['o-flexy__block form__block tx-center', 'o-inline']}>
-            <Container divs={['o-inline__item u-mrg-r-1', 'c-input-static c-input-static--lg']}>Gimme like</Container>
+            <Container divs={['o-inline__item u-mrg-r-1', 'c-input-static c-input-static--lg']}>Gimme like </Container>
             <Container divs={['o-inline__item u-mrg-r-1']}>
               <input
-                class='c-input c-input-static--md form-input__mini'
+                class='c-input c-input-static--lg form-input__mini'
                 name='numberOfQuotes'
                 value='5'
                 type='number'
