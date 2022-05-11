@@ -8,7 +8,7 @@ import './App.css';
 
 const fetchKanye = async function (number) {
   const data = [];
-  for (let i = 0; i < number; i++) {
+  while (data.length < number) {
     const response = await fetch('https://api.kanye.rest/');
     const value = await response.json();
     !data.includes(value) ? data.push(value) : data.push().flat();
