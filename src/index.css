@@ -6392,30 +6392,3 @@ h2 {
     height: 76px;
   }
 }
-
-.c-maker {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 1.5em;
-  z-index: 100;
-}
-.c-maker__text {
-  color: #fff;
-}
-.c-maker__text span {
-  opacity: 0.7;
-}
-.c-maker__link {
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-  z-index: 10;
-  text-decoration: line-through;
-  opacity: 0.7;
-  font-weight: 500;
-}
-.c-maker__link:hover {
-  text-decoration: none;
-  opacity: 1;
-}
