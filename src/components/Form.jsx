@@ -15,7 +15,7 @@ const Form = () => {
               value='5'
               type='number'
               max='101'
-              min='1'></input>
+              min='1' />
           </Container>
           <Container divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quotes of that Kanye West.</Container>
         </Container>
