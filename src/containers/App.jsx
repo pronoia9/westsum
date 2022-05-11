@@ -13,7 +13,6 @@ const fetchKanye = async function (number) {
   }
   return data;
 };
-fetchKanye(3).then((data) => console.log(data.map((q) => q.quote)));
 
 class App extends Component {
   constructor() {
@@ -28,7 +27,7 @@ class App extends Component {
   }
   componentDidMount() {
     console.log(`Component Did Mount`);
-    this.setState({ number: 5 });
+    fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
   }
   componentDidUpdate() {
     console.log(`Component Did Update`);
