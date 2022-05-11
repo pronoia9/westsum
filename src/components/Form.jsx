@@ -11,7 +11,7 @@ const Form = () => {
             <Container divs={['o-inline__item u-mrg-r-1', 'c-input-static c-input-static--lg']}>Gimme like </Container>
             <Container divs={['o-inline__item u-mrg-r-1']}>
               <input
-                class='c-input c-input-static--lg form-input__mini'
+                className='c-input c-input-static--lg form-input__mini'
                 name='numberOfQuotes'
                 value='5'
                 type='number'
