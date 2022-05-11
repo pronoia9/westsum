@@ -10,7 +10,8 @@ const fetchKanye = async function (number) {
   const data = [];
   for (let i = 0; i < number; i++) {
     const response = await fetch('https://api.kanye.rest/');
-    data.push(await response.json());
+    const value = await response.json();
+    !data.includes(value) ? data.push(value) : data.push().flat();
   }
   return data;
 };
