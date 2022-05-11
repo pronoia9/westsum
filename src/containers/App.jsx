@@ -18,7 +18,7 @@ class App extends Component {
     super();
     this.state = {
       quotes: [], // will contain the fetched quotes
-      number: 0, // will be the number of quotes the user will choose to display
+      number: 5, // will be the number of quotes the user will choose to display
     };
   }
   componentDidCatch() {
@@ -37,17 +37,18 @@ class App extends Component {
     return (
       <div className='app-container tx-smooth'>
         <Banner />
-        <Form onchange={this.onChange} onSubmit={this.onSubmit} />
+        <Form onChange={this.onChange} onSubmit={this.onSubmit} number={this.state.number} />
       </div>
     );
   }
 
-  onChange (e)  {
-    //
+  onChange(e) {
+    this.setState({ number: e.target.value });
   }
 
   onSubmit(e) {
-    console.log(e);
+    e.preventDefault();
+    console.log(`onSubmit: ${e}`);
   }
 }
 
