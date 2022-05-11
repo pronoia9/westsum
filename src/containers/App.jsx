@@ -39,9 +39,6 @@ class App extends Component {
       </div>
     );
   }
-  // componentDidUpdate() { console.log(`Component Did Update`); }
-  // componentDidCatch() { console.log(`Component Did Catch`); }
-  // componentWillUnmount() { console.log(`Component Will Unmount`); }
 
   // Other Functions
   onChange(e) {
@@ -50,7 +47,7 @@ class App extends Component {
 
   onSubmit(e) {
     e.preventDefault();
-    console.log(`onSubmit: ${e}`);
+    fetchKanye(this.state.number).then((data) => this.setState({ quotes: data.map((q) => q.quote) }));
   }
 }
 
