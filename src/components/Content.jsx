@@ -1,5 +1,6 @@
 import React from 'react';
 import Div from './General/Div';
+import './Content.css';
 
 export default function Content({ quotes }) {
   return (
