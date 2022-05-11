@@ -1,6 +1,6 @@
 import React from 'react';
 // components
-import Maker from './Maker';
+import Maker from './BannerContentWrapper/Maker';
 // styles
 import './BannerContentWrapper.css';
 
