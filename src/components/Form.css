@@ -3,7 +3,7 @@
   z-index: 20;
   top: -40px;
 }
-.form-container__button {
+.form__button {
   background: #0551b4;
   color: white;
   font-weight: 500;
@@ -16,20 +16,20 @@
   width: 100%;
 }
 @media (min-width: 992px) {
-  .form-container__button {
+  .form__button {
     width: auto;
   }
 }
-.form-container__button:hover {
+.form__button:hover {
   background: #043b82;
 }
-.form-container .form-input__mini {
+.form .form-input__mini {
   width: 55px;
 }
-.form-container__bar {
+.form__bar {
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
 }
-.form-container__block {
+.form__block {
   background: white;
   padding: 12px 30px;
   color: #2a3b47;
@@ -37,7 +37,7 @@
   letter-spacing: -0.5px;
 }
 @media (min-width: 992px) {
-  .form-container__block {
+  .form__block {
     height: 76px;
   }
 }
