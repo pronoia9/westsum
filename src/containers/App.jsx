@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className='app-container tx-smooth'>
-        <Banner />
+        <Banner urls={['pronoia9.github.io/ztmtcwd-robofriends/', 'https://www.seanhalpin.design/work/jeffsum/']} />
         <Form onChange={this.onChange} onSubmit={this.onSubmit} number={this.state.number} />
         <Content quotes={this.state.quotes} />
       </div>
