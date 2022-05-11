@@ -23,7 +23,7 @@
 .form__button:hover {
   background: #043b82;
 }
-.form .form-input__mini {
+.form-container .form-input__mini {
   width: 55px;
 }
 .form__bar {
