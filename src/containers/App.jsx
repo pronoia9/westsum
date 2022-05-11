@@ -22,7 +22,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className='app-container'>
+      <div className='app-container tx-smooth'>
         <Banner></Banner>
       </div>
     );
