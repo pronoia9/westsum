@@ -23,6 +23,8 @@ class App extends Component {
       quotes: [], // will contain the fetched quotes
       number: 0, // will be the number of quotes the user will choose to display
     };
+    this.onChange = this.onChange.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
   }
   componentDidMount() {
     console.log(`Component Did Mount`);
