@@ -1,0 +1,13 @@
+.banner-container {
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .banner-container {
+    overflow: visible;
+  }
+}
+.banner-container--one {
+  background-image: -webkit-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
+  background-image: -o-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
+  background-image: linear-gradient(242deg, #61bfd9 16%, #0551b4 67%);
+}
