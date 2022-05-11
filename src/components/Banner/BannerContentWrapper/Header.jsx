@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = ({ title, subtitle }) => {
   return (
-    <div className='header__desc'>
+    <div className='header-container'>
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
     </div>
