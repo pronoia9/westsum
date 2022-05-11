@@ -24,7 +24,6 @@ class App extends Component {
       number: 0, // will be the number of quotes the user will choose to display
     };
   }
-  // componentDidCatch() { console.log(`Component Did Catch`); }
   componentDidMount() {
     console.log(`Component Did Mount`);
     fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
@@ -39,6 +38,7 @@ class App extends Component {
     );
   }
   // componentDidUpdate() { console.log(`Component Did Update`); }
+  // componentDidCatch() { console.log(`Component Did Catch`); }
   // componentWillUnmount() { console.log(`Component Will Unmount`); }
 
   // Other Functions
