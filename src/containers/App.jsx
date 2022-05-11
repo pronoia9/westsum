@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+async function fetchKanye(array, number) {
+  for (let i = 0; i < number; i++) {
+    const response = await fetch('https://api.kanye.rest/');
+    array.push(await response.json());
+  }
+  console.log(array);
+}
+
 class App extends Component {
   constructor() {
     super();
