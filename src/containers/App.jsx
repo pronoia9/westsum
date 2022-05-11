@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // components
 import Banner from '../components/Banner';
+import Form from '../components/Form';
 // styles
 import './App.css';
 
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <div className='app-container tx-smooth'>
         <Banner />
+        <Form />
       </div>
     );
   }

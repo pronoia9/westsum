@@ -16,11 +16,13 @@
   text-decoration: none;
   position: relative;
   z-index: 10;
-  text-decoration: line-through;
   opacity: 0.7;
   font-weight: 500;
 }
 .maker__link:hover {
   text-decoration: none;
   opacity: 1;
+}
+.strike {
+  text-decoration: line-through;
 }
