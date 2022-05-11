@@ -21,7 +21,7 @@ const Form = () => {
             </Container>
             <Container divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quotes of that Kanye West.</Container>
           </Container>
-          <input type='submit' className='o-flexy__item form__button js-input-bg generate-button' />
+          <input type='submit' value='Receive the West' className='o-flexy__item form__button js-input-bg generate-button' />
         </Container>
       </form>
     </Container>
