@@ -29,8 +29,6 @@ class App extends Component {
     console.log(`Component Did Mount`);
     fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
   }
-  // componentDidUpdate() { console.log(`Component Did Update`); }
-  // componentWillUnmount() { console.log(`Component Will Unmount`); }
   render() {
     return (
       <div className='app-container tx-smooth'>
@@ -40,7 +38,10 @@ class App extends Component {
       </div>
     );
   }
+  // componentDidUpdate() { console.log(`Component Did Update`); }
+  // componentWillUnmount() { console.log(`Component Will Unmount`); }
 
+  // Other Functions
   onChange(e) {
     this.setState({ number: e.target.value });
   }
