@@ -27,7 +27,6 @@ class App extends Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
   componentDidMount() {
-    console.log(`Component Did Mount`);
     fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
   }
   render() {
