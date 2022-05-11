@@ -13,6 +13,7 @@ const fetchKanye = async function (number) {
   }
   return data;
 };
+fetchKanye(3).then((data) => console.log(data.map((q) => q.quote)));
 
 class App extends Component {
   constructor() {
