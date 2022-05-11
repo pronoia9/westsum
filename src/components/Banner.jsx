@@ -9,6 +9,8 @@ const Banner = (props) => {
   return (
     <div className='banner-container banner-container--one u-pos-relative'>
       <BannerContentWrapper />
+      <div className='c-hero__kanye c-hero__kanye--two js-hero-kanye-two'></div>
+      <div className='c-hero__kanye c-hero__kanye--three js-hero-kanye-three'></div>
     </div>
   );
 };
