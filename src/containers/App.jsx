@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // components
 import Banner from '../components/Banner';
 import Form from '../components/Form';
+import Content from '../components/Content';
 // styles
 import './App.css';
 
@@ -22,24 +23,19 @@ class App extends Component {
       number: 0, // will be the number of quotes the user will choose to display
     };
   }
-  componentDidCatch() {
-    console.log(`Component Did Catch`);
-  }
+  // componentDidCatch() { console.log(`Component Did Catch`); }
   componentDidMount() {
     console.log(`Component Did Mount`);
     fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
   }
-  componentDidUpdate() {
-    console.log(`Component Did Update`);
-  }
-  componentWillUnmount() {
-    console.log(`Component Will Unmount`);
-  }
+  // componentDidUpdate() { console.log(`Component Did Update`); }
+  // componentWillUnmount() { console.log(`Component Will Unmount`); }
   render() {
     return (
       <div className='app-container tx-smooth'>
         <Banner />
         <Form onChange={this.onChange} onSubmit={this.onSubmit} number={this.state.number} />
+        <Content quotes={this.state.quotes} />
       </div>
     );
   }
