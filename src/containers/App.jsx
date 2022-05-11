@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+// components
+import Banner from '../components/Banner';
+// styles
 import './App.css';
 
 async function fetchKanye(array, number) {
@@ -18,7 +21,11 @@ class App extends Component {
     };
   }
   render() {
-    return <div className='app-container u-pos-relative'></div>;
+    return (
+      <div className='app-container'>
+        <Banner></Banner>
+      </div>
+    );
   }
 }
 
