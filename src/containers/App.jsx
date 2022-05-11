@@ -18,7 +18,7 @@ class App extends Component {
     };
   }
   render() {
-    return <div className='tx-smooth'></div>;
+    return <div className='app-container u-pos-relative'></div>;
   }
 }
 
