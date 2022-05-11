@@ -5,20 +5,21 @@ import Form from '../components/Form';
 // styles
 import './App.css';
 
-async function fetchKanye(array, number) {
+const fetchKanye = async function (number) {
+  const data = [];
   for (let i = 0; i < number; i++) {
     const response = await fetch('https://api.kanye.rest/');
-    array.push(await response.json());
+    data.push(await response.json());
   }
-  console.log(array);
-}
+  return data;
+};
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       quotes: [], // will contain the fetched quotes
-      number: 5, // will be the number of quotes the user will choose to display
+      number: 0, // will be the number of quotes the user will choose to display
     };
   }
   componentDidCatch() {
@@ -26,6 +27,7 @@ class App extends Component {
   }
   componentDidMount() {
     console.log(`Component Did Mount`);
+    this.setState({ number: 5 });
   }
   componentDidUpdate() {
     console.log(`Component Did Update`);
