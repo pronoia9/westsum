@@ -6,8 +6,8 @@ export default function Image() {
   return (
     <div className='image-container'>
       <img src={require('../../../images/kanye_1.png')} className='u-width-12 js-kanye-img-1 u-zi-10' alt='Kanye YEAH' />
-      <img src={require('../../../images/kanye_2.png')} className='u-width-12 js-kanye-img-1 u-zi-10' alt='Kanye YEAH' />
-      <img src={require('../../../images/kanye_3.png')} className='u-width-12 js-kanye-img-1 u-zi-10' alt='Kanye YEAH' />
+      <img src={require('../../../images/kanye_2.png')} className='u-width-12 js-kanye-img-2 u-zi-5' alt='Kanye Again' />
+      <img src={require('../../../images/kanye_3.png')} className='u-width-12 js-kanye-img-3 u-zi-1' alt={`It's all Kanye`} />
     </div>
   );
 }
