@@ -4,7 +4,7 @@ import React from 'react';
 import './BannerContentWrapper.css';
 
 const BannerContentWrapper = () => {
-  return <div></div>;
+  return <div className='banner-content-wrapper u-post-relative u-zi-10'></div>;
 };
 
 export default BannerContentWrapper;
