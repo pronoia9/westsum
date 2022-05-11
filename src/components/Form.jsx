@@ -20,7 +20,7 @@ const Form = ({ onInput, onSubmit }) => {
                 onChange={(e) => onInput(e)}
               />
             </Div>
-            <Div divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quotes of that Kanye West.</Div>
+            <Div divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quote(s) of that Kanye West.</Div>
           </Div>
           <input
             type='submit'
