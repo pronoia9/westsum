@@ -1,4 +1,7 @@
 import React from 'react';
+// components
+import './Banner/BannerContentWrapper';
+// styles
 import './Banner.css';
 
 const Banner = (props) => {
