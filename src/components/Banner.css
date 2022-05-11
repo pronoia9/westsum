@@ -1,12 +1,12 @@
-.banner-container {
+.c-hero {
   overflow: hidden;
 }
 @media (min-width: 992px) {
-  .banner-container {
+  .c-hero{
     overflow: visible;
   }
 }
-.banner-container--one {
+.c-hero--one {
   background-image: -webkit-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
   background-image: -o-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
   background-image: linear-gradient(242deg, #61bfd9 16%, #0551b4 67%);

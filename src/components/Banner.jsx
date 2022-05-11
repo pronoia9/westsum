@@ -7,7 +7,7 @@ import BannerContentWrapper from './Banner/BannerContentWrapper';
 
 const Banner = (props) => {
   return (
-    <div className='banner-container banner-container--one u-pos-relative'>
+    <div className='c-hero c-hero--one u-pos-relative'>
       <BannerContentWrapper />
       <div className='c-hero__kanye c-hero__kanye--two js-hero-kanye-two'></div>
       <div className='c-hero__kanye c-hero__kanye--three js-hero-kanye-three'></div>
