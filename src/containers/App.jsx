@@ -21,17 +21,33 @@ class App extends Component {
       number: 0, // will be the number of quotes the user will choose to display
     };
   }
-  componentDidCatch() { console.log(`Component Did Catch`); }
-  componentDidMount() { console.log(`Component Did Mount`); }
-  componentDidUpdate()  { console.log(`Component Did Update`); }
-  componentWillUnmount() { console.log(`Component Will Unmount`); }
+  componentDidCatch() {
+    console.log(`Component Did Catch`);
+  }
+  componentDidMount() {
+    console.log(`Component Did Mount`);
+  }
+  componentDidUpdate() {
+    console.log(`Component Did Update`);
+  }
+  componentWillUnmount() {
+    console.log(`Component Will Unmount`);
+  }
   render() {
     return (
       <div className='app-container tx-smooth'>
         <Banner />
-        <Form />
+        <Form onchange={this.onChange} onSubmit={this.onSubmit} />
       </div>
     );
+  }
+
+  onChange (e)  {
+    //
+  }
+
+  onSubmit(e) {
+    console.log(e);
   }
 }
 
