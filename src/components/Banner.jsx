@@ -1,5 +1,8 @@
-import React from "react";
+import React from 'react';
+import './Banner.css';
 
-const Banner = () => {
-  return <div className='banner-container banner--one u-pos-relative'></div>;
-}
+const Banner = (props) => {
+  return <div className='banner-container banner--one u-pos-relative'>{props.children}</div>;
+};
+
+export default Banner;
