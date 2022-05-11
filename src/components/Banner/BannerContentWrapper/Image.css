@@ -1,4 +1,4 @@
-.image-container {
+.c-hero__image {
   width: 496px;
   height: 622px;
   background: #6fb9e0;
@@ -12,12 +12,12 @@
   opacity: 0.4;
 }
 @media (min-width: 992px) {
-  .image-container {
+  .c-hero__image {
     opacity: 1;
     top: 60px;
   }
 }
-.image-container img {
+.c-hero__image img {
   position: absolute;
   left: 0;
   top: 0;

@@ -1,15 +1,12 @@
 import React from 'react';
 import './Header.css';
+import Div from '../../General/Div';
 
-const Header = ({ title, subtitle }) => {
+export default function Header({ title, subtitle }) {
   return (
-    <div className='o-col-10 o-col-offset-1 o-col-9@lg o-col-offset-3@lg'>
-      <div className='header-container'>
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
-      </div>
-    </div>
+    <Div divs={['o-col-10 o-col-offset-1 o-col-9@lg o-col-offset-3@lg', 'c-hero__desc']}>
+      <h1>{title}</h1>
+      <h2>{subtitle}</h2>
+    </Div>
   );
-};
-
-export default Header;
+}
