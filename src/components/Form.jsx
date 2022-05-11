@@ -3,7 +3,7 @@ import './Form.css';
 import Div from './General/Div';
 import Input from './Form/Input';
 
-const Form = ({ onChange, onSubmit }) => {
+const Form = ({ onChange, onSubmit, number }) => {
   return (
     <Div divs={['form-container', 'o-container', 'o-row', 'o-col-8@lg o-col-offset-4@lg']}>
       <form onSubmit={(e) => onSubmit(e)}>
@@ -14,14 +14,14 @@ const Form = ({ onChange, onSubmit }) => {
               <Input
                 className='c-input c-input-static--lg form-input__mini'
                 name='numberOfQuotes'
-                value='5'
+                value={number}
                 type='number'
                 max='101'
                 min='1'
                 onChange={(e) => onChange(e)}
               />
             </Div>
-            <Div divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quote(s) of that Kanye West.</Div>
+            <Div divs={['o-inline__item', 'c-input-static c-input-static--lg']}>quote{number > 1 ? 's' : ''} of that Kanye West.</Div>
           </Div>
           <Input type='submit' value='Receive the West' className='o-flexy__item form__button js-input-bg generate-button' />
         </Div>
