@@ -3,7 +3,6 @@ import animation from './ImageAnimation';
 import './Image.css';
 
 export default function Image() {
-  // wait until DOM has been rendered
   useEffect(() => {
     animation();
   });
