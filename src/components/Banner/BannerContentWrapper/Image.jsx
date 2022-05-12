@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import animation from './ImageAnimation';
 import './Image.css';
 
 export default function Image() {
-  animation();
+  // wait until DOM has been rendered
+  useEffect(() => {
+    animation();
+  });
+
   return (
     <div className='c-hero__image'>
       <img src={require('../../../images/kanye_1.png')} id='js-kanye-img-1' className='u-width-12 u-zi-10' alt='Kanye YEAH' />
