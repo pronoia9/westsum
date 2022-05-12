@@ -9,8 +9,8 @@ const Banner = ({ urls }) => {
   return (
     <div className='c-hero c-hero--one u-pos-relative'>
       <BannerContentWrapper urls={urls} />
-      <div className='c-hero__kanye c-hero__kanye--two js-hero-kanye-two'></div>
-      <div className='c-hero__kanye c-hero__kanye--three js-hero-kanye-three'></div>
+      <div id='js-hero-kanye-two' className='c-hero__kanye c-hero__kanye--two'></div>
+      <div id='js-hero-kanye-three' className='c-hero__kanye c-hero__kanye--three'></div>
     </div>
   );
 };
