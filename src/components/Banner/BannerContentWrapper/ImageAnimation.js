@@ -2,8 +2,8 @@ import { gsap } from 'gsap';
 export default function animation() {
   var t1 = gsap.timeline({ repeat: -1, onComplete: function() { this.restart(); } });
 
-  gsap.set('.js-kanye-img-2', { scale: 1.2, transformOrign: 'center' });
-  gsap.set('.js-kanye-img-3', { scale: 1.2, transformOrign: 'center' });
+  gsap.set('.js-kanye-img-2', { scale: 1.2, transformOrign: '100% 100%' });
+  gsap.set('.js-kanye-img-3', { scale: 1.2, transformOrign: '100% 100%' });
 
   t1.delay(2);
   
