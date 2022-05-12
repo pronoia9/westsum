@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/westsum/static/css/main.3e0508db.css",
+    "main.js": "/westsum/static/js/main.69a26631.js",
+    "static/media/kanye_2.png": "/westsum/static/media/kanye_2.4c8d111503bb8340faaa.png",
+    "static/media/kanye_3.png": "/westsum/static/media/kanye_3.becce3f845961a8030fd.png",
+    "static/media/kanye_1.png": "/westsum/static/media/kanye_1.95a1d62f3197246c2400.png",
+    "static/media/kanyemoji_0.png": "/westsum/static/media/kanyemoji_0.76773af66b65adb07548.png",
+    "static/media/kanyemoji_5.png": "/westsum/static/media/kanyemoji_5.e7bde87f644f57c7189e.png",
+    "static/media/kanyemoji_8.png": "/westsum/static/media/kanyemoji_8.b522f3fa557c18cda315.png",
+    "static/media/kanyemoji_6.png": "/westsum/static/media/kanyemoji_6.617a5a477d4086351fbe.png",
+    "static/media/kanyemoji_2.png": "/westsum/static/media/kanyemoji_2.e4d8c162200e1ec74e68.png",
+    "static/media/kanyemoji_4.png": "/westsum/static/media/kanyemoji_4.6e65a71a5811b2051adb.png",
+    "static/media/kanyemoji_1.png": "/westsum/static/media/kanyemoji_1.b8b7201ed4d53da09bd0.png",
+    "static/media/kanyemoji_7.png": "/westsum/static/media/kanyemoji_7.235710da737b0569bc81.png",
+    "static/media/kanyemoji_3.png": "/westsum/static/media/kanyemoji_3.c3ef71f090134b09999a.png",
+    "index.html": "/westsum/index.html",
+    "main.3e0508db.css.map": "/westsum/static/css/main.3e0508db.css.map",
+    "main.69a26631.js.map": "/westsum/static/js/main.69a26631.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e0508db.css",
+    "static/js/main.69a26631.js"
+  ]
+}
