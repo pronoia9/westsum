@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 // components
-import Banner from '../components/Banner';
-import Form from '../components/Form';
-import Content from '../components/Content';
+import Banner from './Banner';
+import Form from './Form';
+import Content from './Content';
 // styles
 import './App.scss';
 
