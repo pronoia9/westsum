@@ -1,5 +1,5 @@
 import React from 'react';
-import './Maker.css';
+import './Maker.scss';
 
 const Maker = ({ urls }) => {
   return (

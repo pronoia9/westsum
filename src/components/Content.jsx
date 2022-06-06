@@ -1,7 +1,7 @@
 import React from 'react';
 import Div from './General/Div';
 import Quote from './Content/Quote';
-import './Content.css';
+import './Content.scss';
 
 export default function Content({ quotes }) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Form.css';
+import './Form.scss';
 import Div from './General/Div';
 import Input from './Form/Input';
 

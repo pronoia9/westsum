@@ -2,7 +2,7 @@ import React from 'react';
 // components
 import './Banner/BannerContentWrapper';
 // styles
-import './Banner.css';
+import './Banner.scss';
 import BannerContentWrapper from './Banner/BannerContentWrapper';
 
 const Banner = ({ urls }) => {

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import animation from './ImageAnimation';
-import './Image.css';
+import './Image.scss';
 
 export default function Image() {
   useEffect(() => {
