@@ -1,5 +1,5 @@
 import React from 'react';
-import Div from './General/Div';
+import Div from '../utils/Div';
 import Quote from './Content/Quote';
 import './Content.scss';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import Div from '../../General/Div';
+import Div from '../../../utils/Div';
 
 export default function Header({ title, subtitle }) {
   return (
