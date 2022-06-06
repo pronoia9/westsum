@@ -4,7 +4,7 @@ import Banner from '../components/Banner';
 import Form from '../components/Form';
 import Content from '../components/Content';
 // styles
-import './App.css';
+import './App.scss';
 
 const fetchKanye = async function (number) {
   const data = [];
