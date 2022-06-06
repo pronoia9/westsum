@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import animation from './ImageAnimation';
 import './Image.scss';
 
-export default function Image() {
+export default function Image({ number }) {
   useEffect(() => {
     animation();
-  });
+  }, [number]);
 
   return (
     <div className='c-hero__image'>
