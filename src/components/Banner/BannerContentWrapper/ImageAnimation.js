@@ -1,4 +1,4 @@
-'use strict';
+// TODO: FIX GSAP ANIMATIONS
 import { gsap } from 'gsap';
 import { ExpoScaleEase, RoughEase, SlowMo } from 'gsap/EasePack';
 import { CustomEase } from 'gsap/CustomEase';
