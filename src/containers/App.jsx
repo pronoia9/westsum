@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 // components
 import Banner from '../components/Banner';
 import Form from '../components/Form';
@@ -16,38 +16,29 @@ const fetchKanye = async function (number) {
   return data;
 };
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      quotes: [], // will contain the fetched quotes
-      number: 0, // will be the number of quotes the user will choose to display
-    };
-    this.onChange = this.onChange.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
-  }
-  componentDidMount() {
-    fetchKanye(5).then((data) => this.setState({ number: 5, quotes: data.map((q) => q.quote) }));
-  }
-  render() {
-    return (
-      <div className='app-container tx-smooth'>
-        <Banner urls={['https://pronoia9.github.io/westsum/', 'https://www.seanhalpin.design/work/jeffsum/']} />
-        <Form onChange={this.onChange} onSubmit={this.onSubmit} number={this.state.number} />
-        <Content quotes={this.state.quotes} />
-      </div>
-    );
-  }
+export default function App() {
+  // will contain the fetched quotes and the number of quotes the user will choose to display
+  const [state, setState] = useState({ quotes: [], number: 0 });
+  const { quotes, number } = state;
+  useEffect(
+    () => async () => {
+      const data = await fetchKanye(5);
+      setState((state) => ({ ...state, number: 5, quotes: data.map((q) => q.quote) }));
+    },
+    []
+  );
 
-  // Other Functions
-  onChange(e) {
-    this.setState({ number: e.target.value });
-  }
-
-  onSubmit(e) {
+  const onChange = (e) => setState((state) => ({ ...state, number: e.target.value }));
+  const onSubmit = (e) => {
     e.preventDefault();
-    fetchKanye(this.state.number).then((data) => this.setState({ quotes: data.map((q) => q.quote) }));
-  }
-}
+    fetchKanye(number).then((data) => setState((state) => ({ ...state, quotes: data.map((q) => q.quote) })));
+  };
 
-export default App;
+  return (
+    <div className='app-container tx-smooth'>
+      <Banner urls={['https://pronoia9.github.io/westsum/', 'https://www.seanhalpin.design/work/jeffsum/']} />
+      <Form onChange={onChange} onSubmit={onSubmit} number={number} />
+      <Content quotes={quotes} />
+    </div>
+  );
+}
