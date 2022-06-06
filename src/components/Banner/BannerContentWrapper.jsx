@@ -3,14 +3,14 @@ import React from 'react';
 import Maker from './BannerContentWrapper/Maker';
 import Header from './BannerContentWrapper/Header';
 import Image from './BannerContentWrapper/Image';
-import Div from '../General/Div';
+import Div from '../../utils/Div';
 
-export default function BannerContentWrapper({ urls }) {
+export default function BannerContentWrapper({ urls, number }) {
   return (
     <Div divs={['o-container u-post-relative u-zi-10', 'o-row u-pos-relative']}>
       <Maker urls={urls} />
       <Header title='Westsum' subtitle='A little quote generator of Kanye West.' />
-      <Image />
+      <Image number={number} />
     </Div>
   );
 }

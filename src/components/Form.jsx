@@ -1,6 +1,6 @@
 import React from 'react';
 import './Form.scss';
-import Div from './General/Div';
+import Div from '../utils/Div';
 import Input from './Form/Input';
 
 const Form = ({ onChange, onSubmit, number }) => {

@@ -3,6 +3,7 @@
   z-index: 20;
   top: -40px;
 }
+
 .c-form__button {
   background: #0551b4;
   color: white;
@@ -14,21 +15,26 @@
   padding: 0 2em;
   transition: background 0.3s ease-in-out;
   width: 100%;
+
+  &:hover {
+    background: #043b82;
+  }
 }
+
 @media (min-width: 992px) {
   .c-form__button {
     width: auto;
   }
 }
-.c-form__button:hover {
-  background: #043b82;
-}
+
 .c-form .c-input__mini {
   width: 55px;
 }
+
 .c-form__bar {
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
 }
+
 .c-form__block {
   background: white;
   padding: 12px 30px;
@@ -36,6 +42,7 @@
   font-size: 20px;
   letter-spacing: -0.5px;
 }
+
 @media (min-width: 992px) {
   .c-form__block {
     height: 76px;
