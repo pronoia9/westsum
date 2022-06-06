@@ -6,11 +6,10 @@ import './Header.scss';
 export default function Header({ title, subtitle }) {
   useEffect(() => {
     const typed = new Typed('#typed-strings', {
-      strings: ['A little quote generator of Kanye West awesomeness.', subtitle],
+      strings: ['A little quote generator of Kanye West awesomeness.', `${subtitle}..`],
       typeSpeed: 40,
       backSpeed: 50,
       startDelay: 400,
-
     });
     return () => typed.destroy();
   }, [subtitle]);
