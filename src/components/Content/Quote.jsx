@@ -5,7 +5,7 @@ export default function Quote({ quote, index }) {
   return (
     <div className='c-quotes'>
       {index === 0 ? <hr /> : null}
-      <div className={`c-quote-group ${index % 2 ? 'right' : ''}`}>
+      <div className={`c-quote-group ${index % 2 ? 'right' : ''} animate__animated animate__${index % 2 ? 'bounceInLeft' : 'bounceInRight'} animate__delay-${index}s`}>
         <img src={require(`../../images/kanyemoji_${index.toString().charAt(index.toString().length - 1)}.png`)} alt='' />
         <div className='c-quote__container'>
           <blockquote>
