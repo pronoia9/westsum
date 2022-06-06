@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/westsum/static/css/main.3e0508db.css",
-    "main.js": "/westsum/static/js/main.a393d176.js",
+    "main.css": "/westsum/static/css/main.5d533e48.css",
+    "main.js": "/westsum/static/js/main.f465e1cc.js",
     "static/media/kanye_2.png": "/westsum/static/media/kanye_2.4c8d111503bb8340faaa.png",
     "static/media/kanye_3.png": "/westsum/static/media/kanye_3.becce3f845961a8030fd.png",
     "static/media/kanye_1.png": "/westsum/static/media/kanye_1.95a1d62f3197246c2400.png",
@@ -16,11 +16,11 @@
     "static/media/kanyemoji_7.png": "/westsum/static/media/kanyemoji_7.235710da737b0569bc81.png",
     "static/media/kanyemoji_3.png": "/westsum/static/media/kanyemoji_3.c3ef71f090134b09999a.png",
     "index.html": "/westsum/index.html",
-    "main.3e0508db.css.map": "/westsum/static/css/main.3e0508db.css.map",
-    "main.a393d176.js.map": "/westsum/static/js/main.a393d176.js.map"
+    "main.5d533e48.css.map": "/westsum/static/css/main.5d533e48.css.map",
+    "main.f465e1cc.js.map": "/westsum/static/js/main.f465e1cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e0508db.css",
-    "static/js/main.a393d176.js"
+    "static/css/main.5d533e48.css",
+    "static/js/main.f465e1cc.js"
   ]
 }
