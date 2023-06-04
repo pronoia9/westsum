@@ -26,12 +26,14 @@ const Background = styled.div`
   }
 
   &.bg-2 {
+    opacity: 0;
     background-image: -webkit-linear-gradient(152deg, #15af88 16%, #6c429a 67%);
     background-image: -o-linear-gradient(152deg, #15af88 16%, #6c429a 67%);
     background-image: linear-gradient(242deg, #15af88 16%, #6c429a 67%);
   }
 
   &.bg-3 {
+    opacity: 0;
     background-image: -webkit-linear-gradient(152deg, #eea031 18%, #930560 67%);
     background-image: -o-linear-gradient(152deg, #eea031 18%, #930560 67%);
     background-image: linear-gradient(242deg, #eea031 18%, #930560 67%);

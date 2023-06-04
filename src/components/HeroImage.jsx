@@ -37,4 +37,9 @@ const Image = styled.img`
   top: 0;
   width: 100%;
   z-index: 10;
+  opacity: 0;
+
+  &:first-child {
+    opacity: 1;
+  }
 `;
