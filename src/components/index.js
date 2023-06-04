@@ -1,7 +1,9 @@
 import Hero from './Hero';
+import HeroBackground from './HeroBackground';
+import HeroMaker from './HeroMaker';
+import HeroPortrait from './HeroPortrait';
 import InputBar from './InputBar';
-import Portrait from './Portrait';
 import Quotes from './Quotes';
 import ThemeButton from './ThemeButton';
 
-export { Hero, InputBar, Portrait, Quotes, ThemeButton };
+export { Hero, HeroBackground, HeroMaker, HeroPortrait, InputBar, Quotes, ThemeButton };
