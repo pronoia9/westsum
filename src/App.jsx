@@ -23,7 +23,6 @@ const App = () => {
         <GlobalStyles />
         <ThemeButton />
         <Background />
-        <Portrait />
         <InputBar />
         <Quotes />
       </>
