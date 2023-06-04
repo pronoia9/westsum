@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { HeroMaker, HeroTitle, HeroBackground, HeroPortrait } from './';
+import { HeroMaker, HeroTitle, HeroImage, HeroBackground } from './';
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
         <ORow>
           <HeroMaker />
           <HeroTitle />
-          <HeroPortrait />
+          <HeroImage />
         </ORow>
       </OContainer>
     </CHero>
