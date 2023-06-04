@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default function HeroTitle() {
   return (
-    <Container className='o-col-10 o-col-offset-1 o-col-9--lg o-col-offset-3--lg'>
+    <Container>
       <Wrapper>
         <h1>Westsum.</h1>
         <h2>A little quote generator of Kanye West...</h2>
@@ -17,6 +17,7 @@ const Container = styled.div`
   width: 75%;
   margin-left: 25%;
   margin-left: 20%;
+  float: left;
 `;
 
 const Wrapper = styled.div`
