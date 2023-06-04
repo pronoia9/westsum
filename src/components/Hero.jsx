@@ -7,7 +7,7 @@ export default function Hero() {
     <>
       <CHero>
         <OContainer>
-          <ORow className='o-row u-pos-relative'>
+          <ORow>
             <HeroMaker />
             <HeroTitle />
             <HeroImage />
