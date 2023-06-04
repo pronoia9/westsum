@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from 'styled-components';
 
-import { Background, InputBar, Portrait, Quotes, ThemeButton } from './components';
+import { Hero, InputBar, Portrait, Quotes, ThemeButton } from './components';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme, lightTheme } from './styles/Themes';
 import { isDarkTheme, systemThemeChangeHandler } from './utils/utils';
@@ -22,7 +22,7 @@ const App = () => {
       <>
         <GlobalStyles />
         <ThemeButton />
-        <Background />
+        <Hero />
         <InputBar />
         <Quotes />
       </>
