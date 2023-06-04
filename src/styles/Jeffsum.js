@@ -883,35 +883,35 @@ export const JeffsumStyles = css`
     justify-content: flex-end;
   }
   @media (min-width: 544px) {
-    .o-control-group--left\@sm {
+    .o-control-group--left--sm {
       justify-content: flex-start;
     }
-    .o-control-group--center\@sm {
+    .o-control-group--center--sm {
       justify-content: center;
     }
-    .o-control-group--right\@sm {
+    .o-control-group--right--sm {
       justify-content: flex-end;
     }
   }
   @media (min-width: 768px) {
-    .o-control-group--left\@md {
+    .o-control-group--left--md {
       justify-content: flex-start;
     }
-    .o-control-group--center\@md {
+    .o-control-group--center--md {
       justify-content: center;
     }
-    .o-control-group--right\@md {
+    .o-control-group--right--md {
       justify-content: flex-end;
     }
   }
   @media (min-width: 992px) {
-    .o-control-group--left\@lg {
+    .o-control-group--left--lg {
       justify-content: flex-start;
     }
-    .o-control-group--center\@lg {
+    .o-control-group--center--lg {
       justify-content: center;
     }
-    .o-control-group--right\@lg {
+    .o-control-group--right--lg {
       justify-content: flex-end;
     }
   }
@@ -946,64 +946,64 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-d-initial\@sm {
+    .u-d-initial--sm {
       display: initial !important;
     }
-    .u-d-none\@sm {
+    .u-d-none--sm {
       display: none !important;
     }
-    .u-d-block\@sm {
+    .u-d-block--sm {
       display: block !important;
     }
-    .u-d-inline\@sm {
+    .u-d-inline--sm {
       display: inline !important;
     }
-    .u-d-inline-block\@sm {
+    .u-d-inline-block--sm {
       display: inline-block !important;
     }
-    .u-d-flex\@sm {
+    .u-d-flex--sm {
       display: flex !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-d-initial\@md {
+    .u-d-initial--md {
       display: initial !important;
     }
-    .u-d-none\@md {
+    .u-d-none--md {
       display: none !important;
     }
-    .u-d-block\@md {
+    .u-d-block--md {
       display: block !important;
     }
-    .u-d-inline\@md {
+    .u-d-inline--md {
       display: inline !important;
     }
-    .u-d-inline-block\@md {
+    .u-d-inline-block--md {
       display: inline-block !important;
     }
-    .u-d-flex\@md {
+    .u-d-flex--md {
       display: flex !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-d-initial\@lg {
+    .u-d-initial--lg {
       display: initial !important;
     }
-    .u-d-none\@lg {
+    .u-d-none--lg {
       display: none !important;
     }
-    .u-d-block\@lg {
+    .u-d-block--lg {
       display: block !important;
     }
-    .u-d-inline\@lg {
+    .u-d-inline--lg {
       display: inline !important;
     }
-    .u-d-inline-block\@lg {
+    .u-d-inline-block--lg {
       display: inline-block !important;
     }
-    .u-d-flex\@lg {
+    .u-d-flex--lg {
       display: flex !important;
     }
   }
@@ -1015,21 +1015,21 @@ export const JeffsumStyles = css`
     justify-content: space-between;
   }
   @media (min-width: 544px) {
-    .o-flexy\@sm {
+    .o-flexy--sm {
       align-items: center;
       display: flex;
       justify-content: space-between;
     }
   }
   @media (min-width: 768px) {
-    .o-flexy\@md {
+    .o-flexy--md {
       align-items: center;
       display: flex;
       justify-content: space-between;
     }
   }
   @media (min-width: 992px) {
-    .o-flexy\@lg {
+    .o-flexy--lg {
       align-items: center;
       display: flex;
       justify-content: space-between;
@@ -1053,46 +1053,46 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .o-flexy--top\@sm {
+    .o-flexy--top--sm {
       align-items: flex-start;
     }
-    .o-flexy--middle\@sm {
+    .o-flexy--middle--sm {
       align-items: center;
     }
-    .o-flexy--bottom\@sm {
+    .o-flexy--bottom--sm {
       align-items: flex-end;
     }
-    .o-flexy--stretch\@sm {
+    .o-flexy--stretch--sm {
       align-items: stretch;
     }
   }
 
   @media (min-width: 768px) {
-    .o-flexy--top\@md {
+    .o-flexy--top--md {
       align-items: flex-start;
     }
-    .o-flexy--middle\@md {
+    .o-flexy--middle--md {
       align-items: center;
     }
-    .o-flexy--bottom\@md {
+    .o-flexy--bottom--md {
       align-items: flex-end;
     }
-    .o-flexy--stretch\@md {
+    .o-flexy--stretch--md {
       align-items: stretch;
     }
   }
 
   @media (min-width: 992px) {
-    .o-flexy--top\@lg {
+    .o-flexy--top--lg {
       align-items: flex-start;
     }
-    .o-flexy--middle\@lg {
+    .o-flexy--middle--lg {
       align-items: center;
     }
-    .o-flexy--bottom\@lg {
+    .o-flexy--bottom--lg {
       align-items: flex-end;
     }
-    .o-flexy--stretch\@lg {
+    .o-flexy--stretch--lg {
       align-items: stretch;
     }
   }
@@ -1133,100 +1133,100 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .o-flexy--gap-xs\@sm > * {
+    .o-flexy--gap-xs--sm > * {
       margin-left: 4px;
     }
-    .o-flexy--gap-xs\@sm > *:first-child {
+    .o-flexy--gap-xs--sm > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-sm\@sm > * {
+    .o-flexy--gap-sm--sm > * {
       margin-left: 8px;
     }
-    .o-flexy--gap-sm\@sm > *:first-child {
+    .o-flexy--gap-sm--sm > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-md\@sm > * {
+    .o-flexy--gap-md--sm > * {
       margin-left: 12px;
     }
-    .o-flexy--gap-md\@sm > *:first-child {
+    .o-flexy--gap-md--sm > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-lg\@sm > * {
+    .o-flexy--gap-lg--sm > * {
       margin-left: 16px;
     }
-    .o-flexy--gap-lg\@sm > *:first-child {
+    .o-flexy--gap-lg--sm > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-xl\@sm > * {
+    .o-flexy--gap-xl--sm > * {
       margin-left: 20px;
     }
-    .o-flexy--gap-xl\@sm > *:first-child {
+    .o-flexy--gap-xl--sm > *:first-child {
       margin-left: 0;
     }
   }
 
   @media (min-width: 768px) {
-    .o-flexy--gap-xs\@md > * {
+    .o-flexy--gap-xs--md > * {
       margin-left: 4px;
     }
-    .o-flexy--gap-xs\@md > *:first-child {
+    .o-flexy--gap-xs--md > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-sm\@md > * {
+    .o-flexy--gap-sm--md > * {
       margin-left: 8px;
     }
-    .o-flexy--gap-sm\@md > *:first-child {
+    .o-flexy--gap-sm--md > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-md\@md > * {
+    .o-flexy--gap-md--md > * {
       margin-left: 12px;
     }
-    .o-flexy--gap-md\@md > *:first-child {
+    .o-flexy--gap-md--md > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-lg\@md > * {
+    .o-flexy--gap-lg--md > * {
       margin-left: 16px;
     }
-    .o-flexy--gap-lg\@md > *:first-child {
+    .o-flexy--gap-lg--md > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-xl\@md > * {
+    .o-flexy--gap-xl--md > * {
       margin-left: 20px;
     }
-    .o-flexy--gap-xl\@md > *:first-child {
+    .o-flexy--gap-xl--md > *:first-child {
       margin-left: 0;
     }
   }
 
   @media (min-width: 992px) {
-    .o-flexy--gap-xs\@lg > * {
+    .o-flexy--gap-xs--lg > * {
       margin-left: 4px;
     }
-    .o-flexy--gap-xs\@lg > *:first-child {
+    .o-flexy--gap-xs--lg > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-sm\@lg > * {
+    .o-flexy--gap-sm--lg > * {
       margin-left: 8px;
     }
-    .o-flexy--gap-sm\@lg > *:first-child {
+    .o-flexy--gap-sm--lg > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-md\@lg > * {
+    .o-flexy--gap-md--lg > * {
       margin-left: 12px;
     }
-    .o-flexy--gap-md\@lg > *:first-child {
+    .o-flexy--gap-md--lg > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-lg\@lg > * {
+    .o-flexy--gap-lg--lg > * {
       margin-left: 16px;
     }
-    .o-flexy--gap-lg\@lg > *:first-child {
+    .o-flexy--gap-lg--lg > *:first-child {
       margin-left: 0;
     }
-    .o-flexy--gap-xl\@lg > * {
+    .o-flexy--gap-xl--lg > * {
       margin-left: 20px;
     }
-    .o-flexy--gap-xl\@lg > *:first-child {
+    .o-flexy--gap-xl--lg > *:first-child {
       margin-left: 0;
     }
   }
@@ -1248,46 +1248,46 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .o-flexy--just-default\@sm {
+    .o-flexy--just-default--sm {
       justify-content: space-between;
     }
-    .o-flexy--just-left\@sm {
+    .o-flexy--just-left--sm {
       justify-content: flex-start;
     }
-    .o-flexy--just-center\@sm {
+    .o-flexy--just-center--sm {
       justify-content: center;
     }
-    .o-flexy--just-right\@sm {
+    .o-flexy--just-right--sm {
       justify-content: flex-end;
     }
   }
 
   @media (min-width: 768px) {
-    .o-flexy--just-default\@md {
+    .o-flexy--just-default--md {
       justify-content: space-between;
     }
-    .o-flexy--just-left\@md {
+    .o-flexy--just-left--md {
       justify-content: flex-start;
     }
-    .o-flexy--just-center\@md {
+    .o-flexy--just-center--md {
       justify-content: center;
     }
-    .o-flexy--just-right\@md {
+    .o-flexy--just-right--md {
       justify-content: flex-end;
     }
   }
 
   @media (min-width: 992px) {
-    .o-flexy--just-default\@lg {
+    .o-flexy--just-default--lg {
       justify-content: space-between;
     }
-    .o-flexy--just-left\@lg {
+    .o-flexy--just-left--lg {
       justify-content: flex-start;
     }
-    .o-flexy--just-center\@lg {
+    .o-flexy--just-center--lg {
       justify-content: center;
     }
-    .o-flexy--just-right\@lg {
+    .o-flexy--just-right--lg {
       justify-content: flex-end;
     }
   }
@@ -1299,17 +1299,17 @@ export const JeffsumStyles = css`
     flex: 1;
   }
   @media (min-width: 544px) {
-    .o-flexy__block\@sm {
+    .o-flexy__block--sm {
       flex: 1;
     }
   }
   @media (min-width: 768px) {
-    .o-flexy__block\@md {
+    .o-flexy__block--md {
       flex: 1;
     }
   }
   @media (min-width: 992px) {
-    .o-flexy__block\@lg {
+    .o-flexy__block--lg {
       flex: 1;
     }
   }
@@ -1768,514 +1768,514 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .o-col-0\@sm {
+    .o-col-0--sm {
       width: 0%;
     }
-    .o-col-1\@sm {
+    .o-col-1--sm {
       width: 8.33333%;
     }
-    .o-col-2\@sm {
+    .o-col-2--sm {
       width: 16.66667%;
     }
-    .o-col-3\@sm {
+    .o-col-3--sm {
       width: 25%;
     }
-    .o-col-4\@sm {
+    .o-col-4--sm {
       width: 33.33333%;
     }
-    .o-col-5\@sm {
+    .o-col-5--sm {
       width: 41.66667%;
     }
-    .o-col-6\@sm {
+    .o-col-6--sm {
       width: 50%;
     }
-    .o-col-7\@sm {
+    .o-col-7--sm {
       width: 58.33333%;
     }
-    .o-col-8\@sm {
+    .o-col-8--sm {
       width: 66.66667%;
     }
-    .o-col-9\@sm {
+    .o-col-9--sm {
       width: 75%;
     }
-    .o-col-10\@sm {
+    .o-col-10--sm {
       width: 83.33333%;
     }
-    .o-col-11\@sm {
+    .o-col-11--sm {
       width: 91.66667%;
     }
-    .o-col-12\@sm {
+    .o-col-12--sm {
       width: 100%;
     }
-    .o-col-20\@sm {
+    .o-col-20--sm {
       width: 20%;
     }
-    .o-col-offset-0\@sm {
+    .o-col-offset-0--sm {
       margin-left: 0%;
     }
-    .o-col-pull-0\@sm {
+    .o-col-pull-0--sm {
       right: auto;
     }
-    .o-col-push-0\@sm {
+    .o-col-push-0--sm {
       left: auto;
     }
-    .o-col-offset-1\@sm {
+    .o-col-offset-1--sm {
       margin-left: 8.33333%;
     }
-    .o-col-pull-1\@sm {
+    .o-col-pull-1--sm {
       right: 8.33333%;
     }
-    .o-col-push-1\@sm {
+    .o-col-push-1--sm {
       left: 8.33333%;
     }
-    .o-col-offset-2\@sm {
+    .o-col-offset-2--sm {
       margin-left: 16.66667%;
     }
-    .o-col-pull-2\@sm {
+    .o-col-pull-2--sm {
       right: 16.66667%;
     }
-    .o-col-push-2\@sm {
+    .o-col-push-2--sm {
       left: 16.66667%;
     }
-    .o-col-offset-3\@sm {
+    .o-col-offset-3--sm {
       margin-left: 25%;
     }
-    .o-col-pull-3\@sm {
+    .o-col-pull-3--sm {
       right: 25%;
     }
-    .o-col-push-3\@sm {
+    .o-col-push-3--sm {
       left: 25%;
     }
-    .o-col-offset-4\@sm {
+    .o-col-offset-4--sm {
       margin-left: 33.33333%;
     }
-    .o-col-pull-4\@sm {
+    .o-col-pull-4--sm {
       right: 33.33333%;
     }
-    .o-col-push-4\@sm {
+    .o-col-push-4--sm {
       left: 33.33333%;
     }
-    .o-col-offset-5\@sm {
+    .o-col-offset-5--sm {
       margin-left: 41.66667%;
     }
-    .o-col-pull-5\@sm {
+    .o-col-pull-5--sm {
       right: 41.66667%;
     }
-    .o-col-push-5\@sm {
+    .o-col-push-5--sm {
       left: 41.66667%;
     }
-    .o-col-offset-6\@sm {
+    .o-col-offset-6--sm {
       margin-left: 50%;
     }
-    .o-col-pull-6\@sm {
+    .o-col-pull-6--sm {
       right: 50%;
     }
-    .o-col-push-6\@sm {
+    .o-col-push-6--sm {
       left: 50%;
     }
-    .o-col-offset-7\@sm {
+    .o-col-offset-7--sm {
       margin-left: 58.33333%;
     }
-    .o-col-pull-7\@sm {
+    .o-col-pull-7--sm {
       right: 58.33333%;
     }
-    .o-col-push-7\@sm {
+    .o-col-push-7--sm {
       left: 58.33333%;
     }
-    .o-col-offset-8\@sm {
+    .o-col-offset-8--sm {
       margin-left: 66.66667%;
     }
-    .o-col-pull-8\@sm {
+    .o-col-pull-8--sm {
       right: 66.66667%;
     }
-    .o-col-push-8\@sm {
+    .o-col-push-8--sm {
       left: 66.66667%;
     }
-    .o-col-offset-9\@sm {
+    .o-col-offset-9--sm {
       margin-left: 75%;
     }
-    .o-col-pull-9\@sm {
+    .o-col-pull-9--sm {
       right: 75%;
     }
-    .o-col-push-9\@sm {
+    .o-col-push-9--sm {
       left: 75%;
     }
-    .o-col-offset-10\@sm {
+    .o-col-offset-10--sm {
       margin-left: 83.33333%;
     }
-    .o-col-pull-10\@sm {
+    .o-col-pull-10--sm {
       right: 83.33333%;
     }
-    .o-col-push-10\@sm {
+    .o-col-push-10--sm {
       left: 83.33333%;
     }
-    .o-col-offset-11\@sm {
+    .o-col-offset-11--sm {
       margin-left: 91.66667%;
     }
-    .o-col-pull-11\@sm {
+    .o-col-pull-11--sm {
       right: 91.66667%;
     }
-    .o-col-push-11\@sm {
+    .o-col-push-11--sm {
       left: 91.66667%;
     }
-    .o-col-offset-12\@sm {
+    .o-col-offset-12--sm {
       margin-left: 100%;
     }
-    .o-col-pull-12\@sm {
+    .o-col-pull-12--sm {
       right: 100%;
     }
-    .o-col-push-12\@sm {
+    .o-col-push-12--sm {
       left: 100%;
     }
-    .o-col-offset-20\@sm {
+    .o-col-offset-20--sm {
       margin-left: 20%;
     }
-    .o-col-pull-20\@sm {
+    .o-col-pull-20--sm {
       right: 20%;
     }
-    .o-col-push-20\@sm {
+    .o-col-push-20--sm {
       left: 20%;
     }
   }
 
   @media (min-width: 768px) {
-    .o-col-0\@md {
+    .o-col-0--md {
       width: 0%;
     }
-    .o-col-1\@md {
+    .o-col-1--md {
       width: 8.33333%;
     }
-    .o-col-2\@md {
+    .o-col-2--md {
       width: 16.66667%;
     }
-    .o-col-3\@md {
+    .o-col-3--md {
       width: 25%;
     }
-    .o-col-4\@md {
+    .o-col-4--md {
       width: 33.33333%;
     }
-    .o-col-5\@md {
+    .o-col-5--md {
       width: 41.66667%;
     }
-    .o-col-6\@md {
+    .o-col-6--md {
       width: 50%;
     }
-    .o-col-7\@md {
+    .o-col-7--md {
       width: 58.33333%;
     }
-    .o-col-8\@md {
+    .o-col-8--md {
       width: 66.66667%;
     }
-    .o-col-9\@md {
+    .o-col-9--md {
       width: 75%;
     }
-    .o-col-10\@md {
+    .o-col-10--md {
       width: 83.33333%;
     }
-    .o-col-11\@md {
+    .o-col-11--md {
       width: 91.66667%;
     }
-    .o-col-12\@md {
+    .o-col-12--md {
       width: 100%;
     }
-    .o-col-20\@md {
+    .o-col-20--md {
       width: 20%;
     }
-    .o-col-offset-0\@md {
+    .o-col-offset-0--md {
       margin-left: 0%;
     }
-    .o-col-pull-0\@md {
+    .o-col-pull-0--md {
       right: auto;
     }
-    .o-col-push-0\@md {
+    .o-col-push-0--md {
       left: auto;
     }
-    .o-col-offset-1\@md {
+    .o-col-offset-1--md {
       margin-left: 8.33333%;
     }
-    .o-col-pull-1\@md {
+    .o-col-pull-1--md {
       right: 8.33333%;
     }
-    .o-col-push-1\@md {
+    .o-col-push-1--md {
       left: 8.33333%;
     }
-    .o-col-offset-2\@md {
+    .o-col-offset-2--md {
       margin-left: 16.66667%;
     }
-    .o-col-pull-2\@md {
+    .o-col-pull-2--md {
       right: 16.66667%;
     }
-    .o-col-push-2\@md {
+    .o-col-push-2--md {
       left: 16.66667%;
     }
-    .o-col-offset-3\@md {
+    .o-col-offset-3--md {
       margin-left: 25%;
     }
-    .o-col-pull-3\@md {
+    .o-col-pull-3--md {
       right: 25%;
     }
-    .o-col-push-3\@md {
+    .o-col-push-3--md {
       left: 25%;
     }
-    .o-col-offset-4\@md {
+    .o-col-offset-4--md {
       margin-left: 33.33333%;
     }
-    .o-col-pull-4\@md {
+    .o-col-pull-4--md {
       right: 33.33333%;
     }
-    .o-col-push-4\@md {
+    .o-col-push-4--md {
       left: 33.33333%;
     }
-    .o-col-offset-5\@md {
+    .o-col-offset-5--md {
       margin-left: 41.66667%;
     }
-    .o-col-pull-5\@md {
+    .o-col-pull-5--md {
       right: 41.66667%;
     }
-    .o-col-push-5\@md {
+    .o-col-push-5--md {
       left: 41.66667%;
     }
-    .o-col-offset-6\@md {
+    .o-col-offset-6--md {
       margin-left: 50%;
     }
-    .o-col-pull-6\@md {
+    .o-col-pull-6--md {
       right: 50%;
     }
-    .o-col-push-6\@md {
+    .o-col-push-6--md {
       left: 50%;
     }
-    .o-col-offset-7\@md {
+    .o-col-offset-7--md {
       margin-left: 58.33333%;
     }
-    .o-col-pull-7\@md {
+    .o-col-pull-7--md {
       right: 58.33333%;
     }
-    .o-col-push-7\@md {
+    .o-col-push-7--md {
       left: 58.33333%;
     }
-    .o-col-offset-8\@md {
+    .o-col-offset-8--md {
       margin-left: 66.66667%;
     }
-    .o-col-pull-8\@md {
+    .o-col-pull-8--md {
       right: 66.66667%;
     }
-    .o-col-push-8\@md {
+    .o-col-push-8--md {
       left: 66.66667%;
     }
-    .o-col-offset-9\@md {
+    .o-col-offset-9--md {
       margin-left: 75%;
     }
-    .o-col-pull-9\@md {
+    .o-col-pull-9--md {
       right: 75%;
     }
-    .o-col-push-9\@md {
+    .o-col-push-9--md {
       left: 75%;
     }
-    .o-col-offset-10\@md {
+    .o-col-offset-10--md {
       margin-left: 83.33333%;
     }
-    .o-col-pull-10\@md {
+    .o-col-pull-10--md {
       right: 83.33333%;
     }
-    .o-col-push-10\@md {
+    .o-col-push-10--md {
       left: 83.33333%;
     }
-    .o-col-offset-11\@md {
+    .o-col-offset-11--md {
       margin-left: 91.66667%;
     }
-    .o-col-pull-11\@md {
+    .o-col-pull-11--md {
       right: 91.66667%;
     }
-    .o-col-push-11\@md {
+    .o-col-push-11--md {
       left: 91.66667%;
     }
-    .o-col-offset-12\@md {
+    .o-col-offset-12--md {
       margin-left: 100%;
     }
-    .o-col-pull-12\@md {
+    .o-col-pull-12--md {
       right: 100%;
     }
-    .o-col-push-12\@md {
+    .o-col-push-12--md {
       left: 100%;
     }
-    .o-col-offset-20\@md {
+    .o-col-offset-20--md {
       margin-left: 20%;
     }
-    .o-col-pull-20\@md {
+    .o-col-pull-20--md {
       right: 20%;
     }
-    .o-col-push-20\@md {
+    .o-col-push-20--md {
       left: 20%;
     }
   }
 
   @media (min-width: 992px) {
-    .o-col-0\@lg {
+    .o-col-0--lg {
       width: 0%;
     }
-    .o-col-1\@lg {
+    .o-col-1--lg {
       width: 8.33333%;
     }
-    .o-col-2\@lg {
+    .o-col-2--lg {
       width: 16.66667%;
     }
-    .o-col-3\@lg {
+    .o-col-3--lg {
       width: 25%;
     }
-    .o-col-4\@lg {
+    .o-col-4--lg {
       width: 33.33333%;
     }
-    .o-col-5\@lg {
+    .o-col-5--lg {
       width: 41.66667%;
     }
-    .o-col-6\@lg {
+    .o-col-6--lg {
       width: 50%;
     }
-    .o-col-7\@lg {
+    .o-col-7--lg {
       width: 58.33333%;
     }
-    .o-col-8\@lg {
+    .o-col-8--lg {
       width: 66.66667%;
     }
-    .o-col-9\@lg {
+    .o-col-9--lg {
       width: 75%;
     }
-    .o-col-10\@lg {
+    .o-col-10--lg {
       width: 83.33333%;
     }
-    .o-col-11\@lg {
+    .o-col-11--lg {
       width: 91.66667%;
     }
-    .o-col-12\@lg {
+    .o-col-12--lg {
       width: 100%;
     }
-    .o-col-20\@lg {
+    .o-col-20--lg {
       width: 20%;
     }
-    .o-col-offset-0\@lg {
+    .o-col-offset-0--lg {
       margin-left: 0%;
     }
-    .o-col-pull-0\@lg {
+    .o-col-pull-0--lg {
       right: auto;
     }
-    .o-col-push-0\@lg {
+    .o-col-push-0--lg {
       left: auto;
     }
-    .o-col-offset-1\@lg {
+    .o-col-offset-1--lg {
       margin-left: 8.33333%;
     }
-    .o-col-pull-1\@lg {
+    .o-col-pull-1--lg {
       right: 8.33333%;
     }
-    .o-col-push-1\@lg {
+    .o-col-push-1--lg {
       left: 8.33333%;
     }
-    .o-col-offset-2\@lg {
+    .o-col-offset-2--lg {
       margin-left: 16.66667%;
     }
-    .o-col-pull-2\@lg {
+    .o-col-pull-2--lg {
       right: 16.66667%;
     }
-    .o-col-push-2\@lg {
+    .o-col-push-2--lg {
       left: 16.66667%;
     }
-    .o-col-offset-3\@lg {
+    .o-col-offset-3--lg {
       margin-left: 25%;
     }
-    .o-col-pull-3\@lg {
+    .o-col-pull-3--lg {
       right: 25%;
     }
-    .o-col-push-3\@lg {
+    .o-col-push-3--lg {
       left: 25%;
     }
-    .o-col-offset-4\@lg {
+    .o-col-offset-4--lg {
       margin-left: 33.33333%;
     }
-    .o-col-pull-4\@lg {
+    .o-col-pull-4--lg {
       right: 33.33333%;
     }
-    .o-col-push-4\@lg {
+    .o-col-push-4--lg {
       left: 33.33333%;
     }
-    .o-col-offset-5\@lg {
+    .o-col-offset-5--lg {
       margin-left: 41.66667%;
     }
-    .o-col-pull-5\@lg {
+    .o-col-pull-5--lg {
       right: 41.66667%;
     }
-    .o-col-push-5\@lg {
+    .o-col-push-5--lg {
       left: 41.66667%;
     }
-    .o-col-offset-6\@lg {
+    .o-col-offset-6--lg {
       margin-left: 50%;
     }
-    .o-col-pull-6\@lg {
+    .o-col-pull-6--lg {
       right: 50%;
     }
-    .o-col-push-6\@lg {
+    .o-col-push-6--lg {
       left: 50%;
     }
-    .o-col-offset-7\@lg {
+    .o-col-offset-7--lg {
       margin-left: 58.33333%;
     }
-    .o-col-pull-7\@lg {
+    .o-col-pull-7--lg {
       right: 58.33333%;
     }
-    .o-col-push-7\@lg {
+    .o-col-push-7--lg {
       left: 58.33333%;
     }
-    .o-col-offset-8\@lg {
+    .o-col-offset-8--lg {
       margin-left: 66.66667%;
     }
-    .o-col-pull-8\@lg {
+    .o-col-pull-8--lg {
       right: 66.66667%;
     }
-    .o-col-push-8\@lg {
+    .o-col-push-8--lg {
       left: 66.66667%;
     }
-    .o-col-offset-9\@lg {
+    .o-col-offset-9--lg {
       margin-left: 75%;
     }
-    .o-col-pull-9\@lg {
+    .o-col-pull-9--lg {
       right: 75%;
     }
-    .o-col-push-9\@lg {
+    .o-col-push-9--lg {
       left: 75%;
     }
-    .o-col-offset-10\@lg {
+    .o-col-offset-10--lg {
       margin-left: 83.33333%;
     }
-    .o-col-pull-10\@lg {
+    .o-col-pull-10--lg {
       right: 83.33333%;
     }
-    .o-col-push-10\@lg {
+    .o-col-push-10--lg {
       left: 83.33333%;
     }
-    .o-col-offset-11\@lg {
+    .o-col-offset-11--lg {
       margin-left: 91.66667%;
     }
-    .o-col-pull-11\@lg {
+    .o-col-pull-11--lg {
       right: 91.66667%;
     }
-    .o-col-push-11\@lg {
+    .o-col-push-11--lg {
       left: 91.66667%;
     }
-    .o-col-offset-12\@lg {
+    .o-col-offset-12--lg {
       margin-left: 100%;
     }
-    .o-col-pull-12\@lg {
+    .o-col-pull-12--lg {
       right: 100%;
     }
-    .o-col-push-12\@lg {
+    .o-col-push-12--lg {
       left: 100%;
     }
-    .o-col-offset-20\@lg {
+    .o-col-offset-20--lg {
       margin-left: 20%;
     }
-    .o-col-pull-20\@lg {
+    .o-col-pull-20--lg {
       right: 20%;
     }
-    .o-col-push-20\@lg {
+    .o-col-push-20--lg {
       left: 20%;
     }
   }
@@ -3051,64 +3051,64 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pos-absolute\@sm {
+    .u-pos-absolute--sm {
       position: absolute !important;
     }
-    .u-pos-fixed\@sm {
+    .u-pos-fixed--sm {
       position: fixed !important;
     }
-    .u-pos-inherit\@sm {
+    .u-pos-inherit--sm {
       position: inherit !important;
     }
-    .u-pos-initial\@sm {
+    .u-pos-initial--sm {
       position: initial !important;
     }
-    .u-pos-relative\@sm {
+    .u-pos-relative--sm {
       position: relative !important;
     }
-    .u-pos-static\@sm {
+    .u-pos-static--sm {
       position: static !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pos-absolute\@md {
+    .u-pos-absolute--md {
       position: absolute !important;
     }
-    .u-pos-fixed\@md {
+    .u-pos-fixed--md {
       position: fixed !important;
     }
-    .u-pos-inherit\@md {
+    .u-pos-inherit--md {
       position: inherit !important;
     }
-    .u-pos-initial\@md {
+    .u-pos-initial--md {
       position: initial !important;
     }
-    .u-pos-relative\@md {
+    .u-pos-relative--md {
       position: relative !important;
     }
-    .u-pos-static\@md {
+    .u-pos-static--md {
       position: static !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pos-absolute\@lg {
+    .u-pos-absolute--lg {
       position: absolute !important;
     }
-    .u-pos-fixed\@lg {
+    .u-pos-fixed--lg {
       position: fixed !important;
     }
-    .u-pos-inherit\@lg {
+    .u-pos-inherit--lg {
       position: inherit !important;
     }
-    .u-pos-initial\@lg {
+    .u-pos-initial--lg {
       position: initial !important;
     }
-    .u-pos-relative\@lg {
+    .u-pos-relative--lg {
       position: relative !important;
     }
-    .u-pos-static\@lg {
+    .u-pos-static--lg {
       position: static !important;
     }
   }
@@ -3162,118 +3162,118 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-0\@sm {
+    .u-mrg-0--sm {
       margin: 0 !important;
     }
-    .u-mrg-1\@sm {
+    .u-mrg-1--sm {
       margin: 4px !important;
     }
-    .u-mrg-2\@sm {
+    .u-mrg-2--sm {
       margin: 8px !important;
     }
-    .u-mrg-3\@sm {
+    .u-mrg-3--sm {
       margin: 12px !important;
     }
-    .u-mrg-4\@sm {
+    .u-mrg-4--sm {
       margin: 16px !important;
     }
-    .u-mrg-5\@sm {
+    .u-mrg-5--sm {
       margin: 20px !important;
     }
-    .u-mrg-6\@sm {
+    .u-mrg-6--sm {
       margin: 24px !important;
     }
-    .u-mrg-7\@sm {
+    .u-mrg-7--sm {
       margin: 28px !important;
     }
-    .u-mrg-8\@sm {
+    .u-mrg-8--sm {
       margin: 32px !important;
     }
-    .u-mrg-9\@sm {
+    .u-mrg-9--sm {
       margin: 36px !important;
     }
-    .u-mrg-10\@sm {
+    .u-mrg-10--sm {
       margin: 40px !important;
     }
-    .u-mrg-auto\@sm {
+    .u-mrg-auto--sm {
       margin: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-0\@md {
+    .u-mrg-0--md {
       margin: 0 !important;
     }
-    .u-mrg-1\@md {
+    .u-mrg-1--md {
       margin: 4px !important;
     }
-    .u-mrg-2\@md {
+    .u-mrg-2--md {
       margin: 8px !important;
     }
-    .u-mrg-3\@md {
+    .u-mrg-3--md {
       margin: 12px !important;
     }
-    .u-mrg-4\@md {
+    .u-mrg-4--md {
       margin: 16px !important;
     }
-    .u-mrg-5\@md {
+    .u-mrg-5--md {
       margin: 20px !important;
     }
-    .u-mrg-6\@md {
+    .u-mrg-6--md {
       margin: 24px !important;
     }
-    .u-mrg-7\@md {
+    .u-mrg-7--md {
       margin: 28px !important;
     }
-    .u-mrg-8\@md {
+    .u-mrg-8--md {
       margin: 32px !important;
     }
-    .u-mrg-9\@md {
+    .u-mrg-9--md {
       margin: 36px !important;
     }
-    .u-mrg-10\@md {
+    .u-mrg-10--md {
       margin: 40px !important;
     }
-    .u-mrg-auto\@md {
+    .u-mrg-auto--md {
       margin: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-0\@lg {
+    .u-mrg-0--lg {
       margin: 0 !important;
     }
-    .u-mrg-1\@lg {
+    .u-mrg-1--lg {
       margin: 4px !important;
     }
-    .u-mrg-2\@lg {
+    .u-mrg-2--lg {
       margin: 8px !important;
     }
-    .u-mrg-3\@lg {
+    .u-mrg-3--lg {
       margin: 12px !important;
     }
-    .u-mrg-4\@lg {
+    .u-mrg-4--lg {
       margin: 16px !important;
     }
-    .u-mrg-5\@lg {
+    .u-mrg-5--lg {
       margin: 20px !important;
     }
-    .u-mrg-6\@lg {
+    .u-mrg-6--lg {
       margin: 24px !important;
     }
-    .u-mrg-7\@lg {
+    .u-mrg-7--lg {
       margin: 28px !important;
     }
-    .u-mrg-8\@lg {
+    .u-mrg-8--lg {
       margin: 32px !important;
     }
-    .u-mrg-9\@lg {
+    .u-mrg-9--lg {
       margin: 36px !important;
     }
-    .u-mrg-10\@lg {
+    .u-mrg-10--lg {
       margin: 40px !important;
     }
-    .u-mrg-auto\@lg {
+    .u-mrg-auto--lg {
       margin: auto !important;
     }
   }
@@ -3327,118 +3327,118 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-t-0\@sm {
+    .u-mrg-t-0--sm {
       margin-top: 0 !important;
     }
-    .u-mrg-t-1\@sm {
+    .u-mrg-t-1--sm {
       margin-top: 4px !important;
     }
-    .u-mrg-t-2\@sm {
+    .u-mrg-t-2--sm {
       margin-top: 8px !important;
     }
-    .u-mrg-t-3\@sm {
+    .u-mrg-t-3--sm {
       margin-top: 12px !important;
     }
-    .u-mrg-t-4\@sm {
+    .u-mrg-t-4--sm {
       margin-top: 16px !important;
     }
-    .u-mrg-t-5\@sm {
+    .u-mrg-t-5--sm {
       margin-top: 20px !important;
     }
-    .u-mrg-t-6\@sm {
+    .u-mrg-t-6--sm {
       margin-top: 24px !important;
     }
-    .u-mrg-t-7\@sm {
+    .u-mrg-t-7--sm {
       margin-top: 28px !important;
     }
-    .u-mrg-t-8\@sm {
+    .u-mrg-t-8--sm {
       margin-top: 32px !important;
     }
-    .u-mrg-t-9\@sm {
+    .u-mrg-t-9--sm {
       margin-top: 36px !important;
     }
-    .u-mrg-t-10\@sm {
+    .u-mrg-t-10--sm {
       margin-top: 40px !important;
     }
-    .u-mrg-t-auto\@sm {
+    .u-mrg-t-auto--sm {
       margin-top: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-t-0\@md {
+    .u-mrg-t-0--md {
       margin-top: 0 !important;
     }
-    .u-mrg-t-1\@md {
+    .u-mrg-t-1--md {
       margin-top: 4px !important;
     }
-    .u-mrg-t-2\@md {
+    .u-mrg-t-2--md {
       margin-top: 8px !important;
     }
-    .u-mrg-t-3\@md {
+    .u-mrg-t-3--md {
       margin-top: 12px !important;
     }
-    .u-mrg-t-4\@md {
+    .u-mrg-t-4--md {
       margin-top: 16px !important;
     }
-    .u-mrg-t-5\@md {
+    .u-mrg-t-5--md {
       margin-top: 20px !important;
     }
-    .u-mrg-t-6\@md {
+    .u-mrg-t-6--md {
       margin-top: 24px !important;
     }
-    .u-mrg-t-7\@md {
+    .u-mrg-t-7--md {
       margin-top: 28px !important;
     }
-    .u-mrg-t-8\@md {
+    .u-mrg-t-8--md {
       margin-top: 32px !important;
     }
-    .u-mrg-t-9\@md {
+    .u-mrg-t-9--md {
       margin-top: 36px !important;
     }
-    .u-mrg-t-10\@md {
+    .u-mrg-t-10--md {
       margin-top: 40px !important;
     }
-    .u-mrg-t-auto\@md {
+    .u-mrg-t-auto--md {
       margin-top: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-t-0\@lg {
+    .u-mrg-t-0--lg {
       margin-top: 0 !important;
     }
-    .u-mrg-t-1\@lg {
+    .u-mrg-t-1--lg {
       margin-top: 4px !important;
     }
-    .u-mrg-t-2\@lg {
+    .u-mrg-t-2--lg {
       margin-top: 8px !important;
     }
-    .u-mrg-t-3\@lg {
+    .u-mrg-t-3--lg {
       margin-top: 12px !important;
     }
-    .u-mrg-t-4\@lg {
+    .u-mrg-t-4--lg {
       margin-top: 16px !important;
     }
-    .u-mrg-t-5\@lg {
+    .u-mrg-t-5--lg {
       margin-top: 20px !important;
     }
-    .u-mrg-t-6\@lg {
+    .u-mrg-t-6--lg {
       margin-top: 24px !important;
     }
-    .u-mrg-t-7\@lg {
+    .u-mrg-t-7--lg {
       margin-top: 28px !important;
     }
-    .u-mrg-t-8\@lg {
+    .u-mrg-t-8--lg {
       margin-top: 32px !important;
     }
-    .u-mrg-t-9\@lg {
+    .u-mrg-t-9--lg {
       margin-top: 36px !important;
     }
-    .u-mrg-t-10\@lg {
+    .u-mrg-t-10--lg {
       margin-top: 40px !important;
     }
-    .u-mrg-t-auto\@lg {
+    .u-mrg-t-auto--lg {
       margin-top: auto !important;
     }
   }
@@ -3492,118 +3492,118 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-r-0\@sm {
+    .u-mrg-r-0--sm {
       margin-right: 0 !important;
     }
-    .u-mrg-r-1\@sm {
+    .u-mrg-r-1--sm {
       margin-right: 4px !important;
     }
-    .u-mrg-r-2\@sm {
+    .u-mrg-r-2--sm {
       margin-right: 8px !important;
     }
-    .u-mrg-r-3\@sm {
+    .u-mrg-r-3--sm {
       margin-right: 12px !important;
     }
-    .u-mrg-r-4\@sm {
+    .u-mrg-r-4--sm {
       margin-right: 16px !important;
     }
-    .u-mrg-r-5\@sm {
+    .u-mrg-r-5--sm {
       margin-right: 20px !important;
     }
-    .u-mrg-r-6\@sm {
+    .u-mrg-r-6--sm {
       margin-right: 24px !important;
     }
-    .u-mrg-r-7\@sm {
+    .u-mrg-r-7--sm {
       margin-right: 28px !important;
     }
-    .u-mrg-r-8\@sm {
+    .u-mrg-r-8--sm {
       margin-right: 32px !important;
     }
-    .u-mrg-r-9\@sm {
+    .u-mrg-r-9--sm {
       margin-right: 36px !important;
     }
-    .u-mrg-r-10\@sm {
+    .u-mrg-r-10--sm {
       margin-right: 40px !important;
     }
-    .u-mrg-r-auto\@sm {
+    .u-mrg-r-auto--sm {
       margin-right: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-r-0\@md {
+    .u-mrg-r-0--md {
       margin-right: 0 !important;
     }
-    .u-mrg-r-1\@md {
+    .u-mrg-r-1--md {
       margin-right: 4px !important;
     }
-    .u-mrg-r-2\@md {
+    .u-mrg-r-2--md {
       margin-right: 8px !important;
     }
-    .u-mrg-r-3\@md {
+    .u-mrg-r-3--md {
       margin-right: 12px !important;
     }
-    .u-mrg-r-4\@md {
+    .u-mrg-r-4--md {
       margin-right: 16px !important;
     }
-    .u-mrg-r-5\@md {
+    .u-mrg-r-5--md {
       margin-right: 20px !important;
     }
-    .u-mrg-r-6\@md {
+    .u-mrg-r-6--md {
       margin-right: 24px !important;
     }
-    .u-mrg-r-7\@md {
+    .u-mrg-r-7--md {
       margin-right: 28px !important;
     }
-    .u-mrg-r-8\@md {
+    .u-mrg-r-8--md {
       margin-right: 32px !important;
     }
-    .u-mrg-r-9\@md {
+    .u-mrg-r-9--md {
       margin-right: 36px !important;
     }
-    .u-mrg-r-10\@md {
+    .u-mrg-r-10--md {
       margin-right: 40px !important;
     }
-    .u-mrg-r-auto\@md {
+    .u-mrg-r-auto--md {
       margin-right: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-r-0\@lg {
+    .u-mrg-r-0--lg {
       margin-right: 0 !important;
     }
-    .u-mrg-r-1\@lg {
+    .u-mrg-r-1--lg {
       margin-right: 4px !important;
     }
-    .u-mrg-r-2\@lg {
+    .u-mrg-r-2--lg {
       margin-right: 8px !important;
     }
-    .u-mrg-r-3\@lg {
+    .u-mrg-r-3--lg {
       margin-right: 12px !important;
     }
-    .u-mrg-r-4\@lg {
+    .u-mrg-r-4--lg {
       margin-right: 16px !important;
     }
-    .u-mrg-r-5\@lg {
+    .u-mrg-r-5--lg {
       margin-right: 20px !important;
     }
-    .u-mrg-r-6\@lg {
+    .u-mrg-r-6--lg {
       margin-right: 24px !important;
     }
-    .u-mrg-r-7\@lg {
+    .u-mrg-r-7--lg {
       margin-right: 28px !important;
     }
-    .u-mrg-r-8\@lg {
+    .u-mrg-r-8--lg {
       margin-right: 32px !important;
     }
-    .u-mrg-r-9\@lg {
+    .u-mrg-r-9--lg {
       margin-right: 36px !important;
     }
-    .u-mrg-r-10\@lg {
+    .u-mrg-r-10--lg {
       margin-right: 40px !important;
     }
-    .u-mrg-r-auto\@lg {
+    .u-mrg-r-auto--lg {
       margin-right: auto !important;
     }
   }
@@ -3657,118 +3657,118 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-b-0\@sm {
+    .u-mrg-b-0--sm {
       margin-bottom: 0 !important;
     }
-    .u-mrg-b-1\@sm {
+    .u-mrg-b-1--sm {
       margin-bottom: 4px !important;
     }
-    .u-mrg-b-2\@sm {
+    .u-mrg-b-2--sm {
       margin-bottom: 8px !important;
     }
-    .u-mrg-b-3\@sm {
+    .u-mrg-b-3--sm {
       margin-bottom: 12px !important;
     }
-    .u-mrg-b-4\@sm {
+    .u-mrg-b-4--sm {
       margin-bottom: 16px !important;
     }
-    .u-mrg-b-5\@sm {
+    .u-mrg-b-5--sm {
       margin-bottom: 20px !important;
     }
-    .u-mrg-b-6\@sm {
+    .u-mrg-b-6--sm {
       margin-bottom: 24px !important;
     }
-    .u-mrg-b-7\@sm {
+    .u-mrg-b-7--sm {
       margin-bottom: 28px !important;
     }
-    .u-mrg-b-8\@sm {
+    .u-mrg-b-8--sm {
       margin-bottom: 32px !important;
     }
-    .u-mrg-b-9\@sm {
+    .u-mrg-b-9--sm {
       margin-bottom: 36px !important;
     }
-    .u-mrg-b-10\@sm {
+    .u-mrg-b-10--sm {
       margin-bottom: 40px !important;
     }
-    .u-mrg-b-auto\@sm {
+    .u-mrg-b-auto--sm {
       margin-bottom: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-b-0\@md {
+    .u-mrg-b-0--md {
       margin-bottom: 0 !important;
     }
-    .u-mrg-b-1\@md {
+    .u-mrg-b-1--md {
       margin-bottom: 4px !important;
     }
-    .u-mrg-b-2\@md {
+    .u-mrg-b-2--md {
       margin-bottom: 8px !important;
     }
-    .u-mrg-b-3\@md {
+    .u-mrg-b-3--md {
       margin-bottom: 12px !important;
     }
-    .u-mrg-b-4\@md {
+    .u-mrg-b-4--md {
       margin-bottom: 16px !important;
     }
-    .u-mrg-b-5\@md {
+    .u-mrg-b-5--md {
       margin-bottom: 20px !important;
     }
-    .u-mrg-b-6\@md {
+    .u-mrg-b-6--md {
       margin-bottom: 24px !important;
     }
-    .u-mrg-b-7\@md {
+    .u-mrg-b-7--md {
       margin-bottom: 28px !important;
     }
-    .u-mrg-b-8\@md {
+    .u-mrg-b-8--md {
       margin-bottom: 32px !important;
     }
-    .u-mrg-b-9\@md {
+    .u-mrg-b-9--md {
       margin-bottom: 36px !important;
     }
-    .u-mrg-b-10\@md {
+    .u-mrg-b-10--md {
       margin-bottom: 40px !important;
     }
-    .u-mrg-b-auto\@md {
+    .u-mrg-b-auto--md {
       margin-bottom: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-b-0\@lg {
+    .u-mrg-b-0--lg {
       margin-bottom: 0 !important;
     }
-    .u-mrg-b-1\@lg {
+    .u-mrg-b-1--lg {
       margin-bottom: 4px !important;
     }
-    .u-mrg-b-2\@lg {
+    .u-mrg-b-2--lg {
       margin-bottom: 8px !important;
     }
-    .u-mrg-b-3\@lg {
+    .u-mrg-b-3--lg {
       margin-bottom: 12px !important;
     }
-    .u-mrg-b-4\@lg {
+    .u-mrg-b-4--lg {
       margin-bottom: 16px !important;
     }
-    .u-mrg-b-5\@lg {
+    .u-mrg-b-5--lg {
       margin-bottom: 20px !important;
     }
-    .u-mrg-b-6\@lg {
+    .u-mrg-b-6--lg {
       margin-bottom: 24px !important;
     }
-    .u-mrg-b-7\@lg {
+    .u-mrg-b-7--lg {
       margin-bottom: 28px !important;
     }
-    .u-mrg-b-8\@lg {
+    .u-mrg-b-8--lg {
       margin-bottom: 32px !important;
     }
-    .u-mrg-b-9\@lg {
+    .u-mrg-b-9--lg {
       margin-bottom: 36px !important;
     }
-    .u-mrg-b-10\@lg {
+    .u-mrg-b-10--lg {
       margin-bottom: 40px !important;
     }
-    .u-mrg-b-auto\@lg {
+    .u-mrg-b-auto--lg {
       margin-bottom: auto !important;
     }
   }
@@ -3822,118 +3822,118 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-l-0\@sm {
+    .u-mrg-l-0--sm {
       margin-left: 0 !important;
     }
-    .u-mrg-l-1\@sm {
+    .u-mrg-l-1--sm {
       margin-left: 4px !important;
     }
-    .u-mrg-l-2\@sm {
+    .u-mrg-l-2--sm {
       margin-left: 8px !important;
     }
-    .u-mrg-l-3\@sm {
+    .u-mrg-l-3--sm {
       margin-left: 12px !important;
     }
-    .u-mrg-l-4\@sm {
+    .u-mrg-l-4--sm {
       margin-left: 16px !important;
     }
-    .u-mrg-l-5\@sm {
+    .u-mrg-l-5--sm {
       margin-left: 20px !important;
     }
-    .u-mrg-l-6\@sm {
+    .u-mrg-l-6--sm {
       margin-left: 24px !important;
     }
-    .u-mrg-l-7\@sm {
+    .u-mrg-l-7--sm {
       margin-left: 28px !important;
     }
-    .u-mrg-l-8\@sm {
+    .u-mrg-l-8--sm {
       margin-left: 32px !important;
     }
-    .u-mrg-l-9\@sm {
+    .u-mrg-l-9--sm {
       margin-left: 36px !important;
     }
-    .u-mrg-l-10\@sm {
+    .u-mrg-l-10--sm {
       margin-left: 40px !important;
     }
-    .u-mrg-l-auto\@sm {
+    .u-mrg-l-auto--sm {
       margin-left: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-l-0\@md {
+    .u-mrg-l-0--md {
       margin-left: 0 !important;
     }
-    .u-mrg-l-1\@md {
+    .u-mrg-l-1--md {
       margin-left: 4px !important;
     }
-    .u-mrg-l-2\@md {
+    .u-mrg-l-2--md {
       margin-left: 8px !important;
     }
-    .u-mrg-l-3\@md {
+    .u-mrg-l-3--md {
       margin-left: 12px !important;
     }
-    .u-mrg-l-4\@md {
+    .u-mrg-l-4--md {
       margin-left: 16px !important;
     }
-    .u-mrg-l-5\@md {
+    .u-mrg-l-5--md {
       margin-left: 20px !important;
     }
-    .u-mrg-l-6\@md {
+    .u-mrg-l-6--md {
       margin-left: 24px !important;
     }
-    .u-mrg-l-7\@md {
+    .u-mrg-l-7--md {
       margin-left: 28px !important;
     }
-    .u-mrg-l-8\@md {
+    .u-mrg-l-8--md {
       margin-left: 32px !important;
     }
-    .u-mrg-l-9\@md {
+    .u-mrg-l-9--md {
       margin-left: 36px !important;
     }
-    .u-mrg-l-10\@md {
+    .u-mrg-l-10--md {
       margin-left: 40px !important;
     }
-    .u-mrg-l-auto\@md {
+    .u-mrg-l-auto--md {
       margin-left: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-l-0\@lg {
+    .u-mrg-l-0--lg {
       margin-left: 0 !important;
     }
-    .u-mrg-l-1\@lg {
+    .u-mrg-l-1--lg {
       margin-left: 4px !important;
     }
-    .u-mrg-l-2\@lg {
+    .u-mrg-l-2--lg {
       margin-left: 8px !important;
     }
-    .u-mrg-l-3\@lg {
+    .u-mrg-l-3--lg {
       margin-left: 12px !important;
     }
-    .u-mrg-l-4\@lg {
+    .u-mrg-l-4--lg {
       margin-left: 16px !important;
     }
-    .u-mrg-l-5\@lg {
+    .u-mrg-l-5--lg {
       margin-left: 20px !important;
     }
-    .u-mrg-l-6\@lg {
+    .u-mrg-l-6--lg {
       margin-left: 24px !important;
     }
-    .u-mrg-l-7\@lg {
+    .u-mrg-l-7--lg {
       margin-left: 28px !important;
     }
-    .u-mrg-l-8\@lg {
+    .u-mrg-l-8--lg {
       margin-left: 32px !important;
     }
-    .u-mrg-l-9\@lg {
+    .u-mrg-l-9--lg {
       margin-left: 36px !important;
     }
-    .u-mrg-l-10\@lg {
+    .u-mrg-l-10--lg {
       margin-left: 40px !important;
     }
-    .u-mrg-l-auto\@lg {
+    .u-mrg-l-auto--lg {
       margin-left: auto !important;
     }
   }
@@ -3999,153 +3999,153 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-h-0\@sm {
+    .u-mrg-h-0--sm {
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
-    .u-mrg-h-1\@sm {
+    .u-mrg-h-1--sm {
       margin-left: 4px !important;
       margin-right: 4px !important;
     }
-    .u-mrg-h-2\@sm {
+    .u-mrg-h-2--sm {
       margin-left: 8px !important;
       margin-right: 8px !important;
     }
-    .u-mrg-h-3\@sm {
+    .u-mrg-h-3--sm {
       margin-left: 12px !important;
       margin-right: 12px !important;
     }
-    .u-mrg-h-4\@sm {
+    .u-mrg-h-4--sm {
       margin-left: 16px !important;
       margin-right: 16px !important;
     }
-    .u-mrg-h-5\@sm {
+    .u-mrg-h-5--sm {
       margin-left: 20px !important;
       margin-right: 20px !important;
     }
-    .u-mrg-h-6\@sm {
+    .u-mrg-h-6--sm {
       margin-left: 24px !important;
       margin-right: 24px !important;
     }
-    .u-mrg-h-7\@sm {
+    .u-mrg-h-7--sm {
       margin-left: 28px !important;
       margin-right: 28px !important;
     }
-    .u-mrg-h-8\@sm {
+    .u-mrg-h-8--sm {
       margin-left: 32px !important;
       margin-right: 32px !important;
     }
-    .u-mrg-h-9\@sm {
+    .u-mrg-h-9--sm {
       margin-left: 36px !important;
       margin-right: 36px !important;
     }
-    .u-mrg-h-10\@sm {
+    .u-mrg-h-10--sm {
       margin-left: 40px !important;
       margin-right: 40px !important;
     }
-    .u-mrg-h-auto\@sm {
+    .u-mrg-h-auto--sm {
       margin-left: auto !important;
       margin-right: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-h-0\@md {
+    .u-mrg-h-0--md {
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
-    .u-mrg-h-1\@md {
+    .u-mrg-h-1--md {
       margin-left: 4px !important;
       margin-right: 4px !important;
     }
-    .u-mrg-h-2\@md {
+    .u-mrg-h-2--md {
       margin-left: 8px !important;
       margin-right: 8px !important;
     }
-    .u-mrg-h-3\@md {
+    .u-mrg-h-3--md {
       margin-left: 12px !important;
       margin-right: 12px !important;
     }
-    .u-mrg-h-4\@md {
+    .u-mrg-h-4--md {
       margin-left: 16px !important;
       margin-right: 16px !important;
     }
-    .u-mrg-h-5\@md {
+    .u-mrg-h-5--md {
       margin-left: 20px !important;
       margin-right: 20px !important;
     }
-    .u-mrg-h-6\@md {
+    .u-mrg-h-6--md {
       margin-left: 24px !important;
       margin-right: 24px !important;
     }
-    .u-mrg-h-7\@md {
+    .u-mrg-h-7--md {
       margin-left: 28px !important;
       margin-right: 28px !important;
     }
-    .u-mrg-h-8\@md {
+    .u-mrg-h-8--md {
       margin-left: 32px !important;
       margin-right: 32px !important;
     }
-    .u-mrg-h-9\@md {
+    .u-mrg-h-9--md {
       margin-left: 36px !important;
       margin-right: 36px !important;
     }
-    .u-mrg-h-10\@md {
+    .u-mrg-h-10--md {
       margin-left: 40px !important;
       margin-right: 40px !important;
     }
-    .u-mrg-h-auto\@md {
+    .u-mrg-h-auto--md {
       margin-left: auto !important;
       margin-right: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-h-0\@lg {
+    .u-mrg-h-0--lg {
       margin-left: 0 !important;
       margin-right: 0 !important;
     }
-    .u-mrg-h-1\@lg {
+    .u-mrg-h-1--lg {
       margin-left: 4px !important;
       margin-right: 4px !important;
     }
-    .u-mrg-h-2\@lg {
+    .u-mrg-h-2--lg {
       margin-left: 8px !important;
       margin-right: 8px !important;
     }
-    .u-mrg-h-3\@lg {
+    .u-mrg-h-3--lg {
       margin-left: 12px !important;
       margin-right: 12px !important;
     }
-    .u-mrg-h-4\@lg {
+    .u-mrg-h-4--lg {
       margin-left: 16px !important;
       margin-right: 16px !important;
     }
-    .u-mrg-h-5\@lg {
+    .u-mrg-h-5--lg {
       margin-left: 20px !important;
       margin-right: 20px !important;
     }
-    .u-mrg-h-6\@lg {
+    .u-mrg-h-6--lg {
       margin-left: 24px !important;
       margin-right: 24px !important;
     }
-    .u-mrg-h-7\@lg {
+    .u-mrg-h-7--lg {
       margin-left: 28px !important;
       margin-right: 28px !important;
     }
-    .u-mrg-h-8\@lg {
+    .u-mrg-h-8--lg {
       margin-left: 32px !important;
       margin-right: 32px !important;
     }
-    .u-mrg-h-9\@lg {
+    .u-mrg-h-9--lg {
       margin-left: 36px !important;
       margin-right: 36px !important;
     }
-    .u-mrg-h-10\@lg {
+    .u-mrg-h-10--lg {
       margin-left: 40px !important;
       margin-right: 40px !important;
     }
-    .u-mrg-h-auto\@lg {
+    .u-mrg-h-auto--lg {
       margin-left: auto !important;
       margin-right: auto !important;
     }
@@ -4212,153 +4212,153 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-mrg-v-0\@sm {
+    .u-mrg-v-0--sm {
       margin-bottom: 0 !important;
       margin-top: 0 !important;
     }
-    .u-mrg-v-1\@sm {
+    .u-mrg-v-1--sm {
       margin-bottom: 4px !important;
       margin-top: 4px !important;
     }
-    .u-mrg-v-2\@sm {
+    .u-mrg-v-2--sm {
       margin-bottom: 8px !important;
       margin-top: 8px !important;
     }
-    .u-mrg-v-3\@sm {
+    .u-mrg-v-3--sm {
       margin-bottom: 12px !important;
       margin-top: 12px !important;
     }
-    .u-mrg-v-4\@sm {
+    .u-mrg-v-4--sm {
       margin-bottom: 16px !important;
       margin-top: 16px !important;
     }
-    .u-mrg-v-5\@sm {
+    .u-mrg-v-5--sm {
       margin-bottom: 20px !important;
       margin-top: 20px !important;
     }
-    .u-mrg-v-6\@sm {
+    .u-mrg-v-6--sm {
       margin-bottom: 24px !important;
       margin-top: 24px !important;
     }
-    .u-mrg-v-7\@sm {
+    .u-mrg-v-7--sm {
       margin-bottom: 28px !important;
       margin-top: 28px !important;
     }
-    .u-mrg-v-8\@sm {
+    .u-mrg-v-8--sm {
       margin-bottom: 32px !important;
       margin-top: 32px !important;
     }
-    .u-mrg-v-9\@sm {
+    .u-mrg-v-9--sm {
       margin-bottom: 36px !important;
       margin-top: 36px !important;
     }
-    .u-mrg-v-10\@sm {
+    .u-mrg-v-10--sm {
       margin-bottom: 40px !important;
       margin-top: 40px !important;
     }
-    .u-mrg-v-auto\@sm {
+    .u-mrg-v-auto--sm {
       margin-bottom: auto !important;
       margin-top: auto !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-mrg-v-0\@md {
+    .u-mrg-v-0--md {
       margin-bottom: 0 !important;
       margin-top: 0 !important;
     }
-    .u-mrg-v-1\@md {
+    .u-mrg-v-1--md {
       margin-bottom: 4px !important;
       margin-top: 4px !important;
     }
-    .u-mrg-v-2\@md {
+    .u-mrg-v-2--md {
       margin-bottom: 8px !important;
       margin-top: 8px !important;
     }
-    .u-mrg-v-3\@md {
+    .u-mrg-v-3--md {
       margin-bottom: 12px !important;
       margin-top: 12px !important;
     }
-    .u-mrg-v-4\@md {
+    .u-mrg-v-4--md {
       margin-bottom: 16px !important;
       margin-top: 16px !important;
     }
-    .u-mrg-v-5\@md {
+    .u-mrg-v-5--md {
       margin-bottom: 20px !important;
       margin-top: 20px !important;
     }
-    .u-mrg-v-6\@md {
+    .u-mrg-v-6--md {
       margin-bottom: 24px !important;
       margin-top: 24px !important;
     }
-    .u-mrg-v-7\@md {
+    .u-mrg-v-7--md {
       margin-bottom: 28px !important;
       margin-top: 28px !important;
     }
-    .u-mrg-v-8\@md {
+    .u-mrg-v-8--md {
       margin-bottom: 32px !important;
       margin-top: 32px !important;
     }
-    .u-mrg-v-9\@md {
+    .u-mrg-v-9--md {
       margin-bottom: 36px !important;
       margin-top: 36px !important;
     }
-    .u-mrg-v-10\@md {
+    .u-mrg-v-10--md {
       margin-bottom: 40px !important;
       margin-top: 40px !important;
     }
-    .u-mrg-v-auto\@md {
+    .u-mrg-v-auto--md {
       margin-bottom: auto !important;
       margin-top: auto !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-mrg-v-0\@lg {
+    .u-mrg-v-0--lg {
       margin-bottom: 0 !important;
       margin-top: 0 !important;
     }
-    .u-mrg-v-1\@lg {
+    .u-mrg-v-1--lg {
       margin-bottom: 4px !important;
       margin-top: 4px !important;
     }
-    .u-mrg-v-2\@lg {
+    .u-mrg-v-2--lg {
       margin-bottom: 8px !important;
       margin-top: 8px !important;
     }
-    .u-mrg-v-3\@lg {
+    .u-mrg-v-3--lg {
       margin-bottom: 12px !important;
       margin-top: 12px !important;
     }
-    .u-mrg-v-4\@lg {
+    .u-mrg-v-4--lg {
       margin-bottom: 16px !important;
       margin-top: 16px !important;
     }
-    .u-mrg-v-5\@lg {
+    .u-mrg-v-5--lg {
       margin-bottom: 20px !important;
       margin-top: 20px !important;
     }
-    .u-mrg-v-6\@lg {
+    .u-mrg-v-6--lg {
       margin-bottom: 24px !important;
       margin-top: 24px !important;
     }
-    .u-mrg-v-7\@lg {
+    .u-mrg-v-7--lg {
       margin-bottom: 28px !important;
       margin-top: 28px !important;
     }
-    .u-mrg-v-8\@lg {
+    .u-mrg-v-8--lg {
       margin-bottom: 32px !important;
       margin-top: 32px !important;
     }
-    .u-mrg-v-9\@lg {
+    .u-mrg-v-9--lg {
       margin-bottom: 36px !important;
       margin-top: 36px !important;
     }
-    .u-mrg-v-10\@lg {
+    .u-mrg-v-10--lg {
       margin-bottom: 40px !important;
       margin-top: 40px !important;
     }
-    .u-mrg-v-auto\@lg {
+    .u-mrg-v-auto--lg {
       margin-bottom: auto !important;
       margin-top: auto !important;
     }
@@ -4409,109 +4409,109 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-0\@sm {
+    .u-pad-0--sm {
       padding: 0 !important;
     }
-    .u-pad-1\@sm {
+    .u-pad-1--sm {
       padding: 4px !important;
     }
-    .u-pad-2\@sm {
+    .u-pad-2--sm {
       padding: 8px !important;
     }
-    .u-pad-3\@sm {
+    .u-pad-3--sm {
       padding: 12px !important;
     }
-    .u-pad-4\@sm {
+    .u-pad-4--sm {
       padding: 16px !important;
     }
-    .u-pad-5\@sm {
+    .u-pad-5--sm {
       padding: 20px !important;
     }
-    .u-pad-6\@sm {
+    .u-pad-6--sm {
       padding: 24px !important;
     }
-    .u-pad-7\@sm {
+    .u-pad-7--sm {
       padding: 28px !important;
     }
-    .u-pad-8\@sm {
+    .u-pad-8--sm {
       padding: 32px !important;
     }
-    .u-pad-9\@sm {
+    .u-pad-9--sm {
       padding: 36px !important;
     }
-    .u-pad-10\@sm {
+    .u-pad-10--sm {
       padding: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-0\@md {
+    .u-pad-0--md {
       padding: 0 !important;
     }
-    .u-pad-1\@md {
+    .u-pad-1--md {
       padding: 4px !important;
     }
-    .u-pad-2\@md {
+    .u-pad-2--md {
       padding: 8px !important;
     }
-    .u-pad-3\@md {
+    .u-pad-3--md {
       padding: 12px !important;
     }
-    .u-pad-4\@md {
+    .u-pad-4--md {
       padding: 16px !important;
     }
-    .u-pad-5\@md {
+    .u-pad-5--md {
       padding: 20px !important;
     }
-    .u-pad-6\@md {
+    .u-pad-6--md {
       padding: 24px !important;
     }
-    .u-pad-7\@md {
+    .u-pad-7--md {
       padding: 28px !important;
     }
-    .u-pad-8\@md {
+    .u-pad-8--md {
       padding: 32px !important;
     }
-    .u-pad-9\@md {
+    .u-pad-9--md {
       padding: 36px !important;
     }
-    .u-pad-10\@md {
+    .u-pad-10--md {
       padding: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-0\@lg {
+    .u-pad-0--lg {
       padding: 0 !important;
     }
-    .u-pad-1\@lg {
+    .u-pad-1--lg {
       padding: 4px !important;
     }
-    .u-pad-2\@lg {
+    .u-pad-2--lg {
       padding: 8px !important;
     }
-    .u-pad-3\@lg {
+    .u-pad-3--lg {
       padding: 12px !important;
     }
-    .u-pad-4\@lg {
+    .u-pad-4--lg {
       padding: 16px !important;
     }
-    .u-pad-5\@lg {
+    .u-pad-5--lg {
       padding: 20px !important;
     }
-    .u-pad-6\@lg {
+    .u-pad-6--lg {
       padding: 24px !important;
     }
-    .u-pad-7\@lg {
+    .u-pad-7--lg {
       padding: 28px !important;
     }
-    .u-pad-8\@lg {
+    .u-pad-8--lg {
       padding: 32px !important;
     }
-    .u-pad-9\@lg {
+    .u-pad-9--lg {
       padding: 36px !important;
     }
-    .u-pad-10\@lg {
+    .u-pad-10--lg {
       padding: 40px !important;
     }
   }
@@ -4561,109 +4561,109 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-t-0\@sm {
+    .u-pad-t-0--sm {
       padding-top: 0 !important;
     }
-    .u-pad-t-1\@sm {
+    .u-pad-t-1--sm {
       padding-top: 4px !important;
     }
-    .u-pad-t-2\@sm {
+    .u-pad-t-2--sm {
       padding-top: 8px !important;
     }
-    .u-pad-t-3\@sm {
+    .u-pad-t-3--sm {
       padding-top: 12px !important;
     }
-    .u-pad-t-4\@sm {
+    .u-pad-t-4--sm {
       padding-top: 16px !important;
     }
-    .u-pad-t-5\@sm {
+    .u-pad-t-5--sm {
       padding-top: 20px !important;
     }
-    .u-pad-t-6\@sm {
+    .u-pad-t-6--sm {
       padding-top: 24px !important;
     }
-    .u-pad-t-7\@sm {
+    .u-pad-t-7--sm {
       padding-top: 28px !important;
     }
-    .u-pad-t-8\@sm {
+    .u-pad-t-8--sm {
       padding-top: 32px !important;
     }
-    .u-pad-t-9\@sm {
+    .u-pad-t-9--sm {
       padding-top: 36px !important;
     }
-    .u-pad-t-10\@sm {
+    .u-pad-t-10--sm {
       padding-top: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-t-0\@md {
+    .u-pad-t-0--md {
       padding-top: 0 !important;
     }
-    .u-pad-t-1\@md {
+    .u-pad-t-1--md {
       padding-top: 4px !important;
     }
-    .u-pad-t-2\@md {
+    .u-pad-t-2--md {
       padding-top: 8px !important;
     }
-    .u-pad-t-3\@md {
+    .u-pad-t-3--md {
       padding-top: 12px !important;
     }
-    .u-pad-t-4\@md {
+    .u-pad-t-4--md {
       padding-top: 16px !important;
     }
-    .u-pad-t-5\@md {
+    .u-pad-t-5--md {
       padding-top: 20px !important;
     }
-    .u-pad-t-6\@md {
+    .u-pad-t-6--md {
       padding-top: 24px !important;
     }
-    .u-pad-t-7\@md {
+    .u-pad-t-7--md {
       padding-top: 28px !important;
     }
-    .u-pad-t-8\@md {
+    .u-pad-t-8--md {
       padding-top: 32px !important;
     }
-    .u-pad-t-9\@md {
+    .u-pad-t-9--md {
       padding-top: 36px !important;
     }
-    .u-pad-t-10\@md {
+    .u-pad-t-10--md {
       padding-top: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-t-0\@lg {
+    .u-pad-t-0--lg {
       padding-top: 0 !important;
     }
-    .u-pad-t-1\@lg {
+    .u-pad-t-1--lg {
       padding-top: 4px !important;
     }
-    .u-pad-t-2\@lg {
+    .u-pad-t-2--lg {
       padding-top: 8px !important;
     }
-    .u-pad-t-3\@lg {
+    .u-pad-t-3--lg {
       padding-top: 12px !important;
     }
-    .u-pad-t-4\@lg {
+    .u-pad-t-4--lg {
       padding-top: 16px !important;
     }
-    .u-pad-t-5\@lg {
+    .u-pad-t-5--lg {
       padding-top: 20px !important;
     }
-    .u-pad-t-6\@lg {
+    .u-pad-t-6--lg {
       padding-top: 24px !important;
     }
-    .u-pad-t-7\@lg {
+    .u-pad-t-7--lg {
       padding-top: 28px !important;
     }
-    .u-pad-t-8\@lg {
+    .u-pad-t-8--lg {
       padding-top: 32px !important;
     }
-    .u-pad-t-9\@lg {
+    .u-pad-t-9--lg {
       padding-top: 36px !important;
     }
-    .u-pad-t-10\@lg {
+    .u-pad-t-10--lg {
       padding-top: 40px !important;
     }
   }
@@ -4713,109 +4713,109 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-r-0\@sm {
+    .u-pad-r-0--sm {
       padding-right: 0 !important;
     }
-    .u-pad-r-1\@sm {
+    .u-pad-r-1--sm {
       padding-right: 4px !important;
     }
-    .u-pad-r-2\@sm {
+    .u-pad-r-2--sm {
       padding-right: 8px !important;
     }
-    .u-pad-r-3\@sm {
+    .u-pad-r-3--sm {
       padding-right: 12px !important;
     }
-    .u-pad-r-4\@sm {
+    .u-pad-r-4--sm {
       padding-right: 16px !important;
     }
-    .u-pad-r-5\@sm {
+    .u-pad-r-5--sm {
       padding-right: 20px !important;
     }
-    .u-pad-r-6\@sm {
+    .u-pad-r-6--sm {
       padding-right: 24px !important;
     }
-    .u-pad-r-7\@sm {
+    .u-pad-r-7--sm {
       padding-right: 28px !important;
     }
-    .u-pad-r-8\@sm {
+    .u-pad-r-8--sm {
       padding-right: 32px !important;
     }
-    .u-pad-r-9\@sm {
+    .u-pad-r-9--sm {
       padding-right: 36px !important;
     }
-    .u-pad-r-10\@sm {
+    .u-pad-r-10--sm {
       padding-right: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-r-0\@md {
+    .u-pad-r-0--md {
       padding-right: 0 !important;
     }
-    .u-pad-r-1\@md {
+    .u-pad-r-1--md {
       padding-right: 4px !important;
     }
-    .u-pad-r-2\@md {
+    .u-pad-r-2--md {
       padding-right: 8px !important;
     }
-    .u-pad-r-3\@md {
+    .u-pad-r-3--md {
       padding-right: 12px !important;
     }
-    .u-pad-r-4\@md {
+    .u-pad-r-4--md {
       padding-right: 16px !important;
     }
-    .u-pad-r-5\@md {
+    .u-pad-r-5--md {
       padding-right: 20px !important;
     }
-    .u-pad-r-6\@md {
+    .u-pad-r-6--md {
       padding-right: 24px !important;
     }
-    .u-pad-r-7\@md {
+    .u-pad-r-7--md {
       padding-right: 28px !important;
     }
-    .u-pad-r-8\@md {
+    .u-pad-r-8--md {
       padding-right: 32px !important;
     }
-    .u-pad-r-9\@md {
+    .u-pad-r-9--md {
       padding-right: 36px !important;
     }
-    .u-pad-r-10\@md {
+    .u-pad-r-10--md {
       padding-right: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-r-0\@lg {
+    .u-pad-r-0--lg {
       padding-right: 0 !important;
     }
-    .u-pad-r-1\@lg {
+    .u-pad-r-1--lg {
       padding-right: 4px !important;
     }
-    .u-pad-r-2\@lg {
+    .u-pad-r-2--lg {
       padding-right: 8px !important;
     }
-    .u-pad-r-3\@lg {
+    .u-pad-r-3--lg {
       padding-right: 12px !important;
     }
-    .u-pad-r-4\@lg {
+    .u-pad-r-4--lg {
       padding-right: 16px !important;
     }
-    .u-pad-r-5\@lg {
+    .u-pad-r-5--lg {
       padding-right: 20px !important;
     }
-    .u-pad-r-6\@lg {
+    .u-pad-r-6--lg {
       padding-right: 24px !important;
     }
-    .u-pad-r-7\@lg {
+    .u-pad-r-7--lg {
       padding-right: 28px !important;
     }
-    .u-pad-r-8\@lg {
+    .u-pad-r-8--lg {
       padding-right: 32px !important;
     }
-    .u-pad-r-9\@lg {
+    .u-pad-r-9--lg {
       padding-right: 36px !important;
     }
-    .u-pad-r-10\@lg {
+    .u-pad-r-10--lg {
       padding-right: 40px !important;
     }
   }
@@ -4865,109 +4865,109 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-b-0\@sm {
+    .u-pad-b-0--sm {
       padding-bottom: 0 !important;
     }
-    .u-pad-b-1\@sm {
+    .u-pad-b-1--sm {
       padding-bottom: 4px !important;
     }
-    .u-pad-b-2\@sm {
+    .u-pad-b-2--sm {
       padding-bottom: 8px !important;
     }
-    .u-pad-b-3\@sm {
+    .u-pad-b-3--sm {
       padding-bottom: 12px !important;
     }
-    .u-pad-b-4\@sm {
+    .u-pad-b-4--sm {
       padding-bottom: 16px !important;
     }
-    .u-pad-b-5\@sm {
+    .u-pad-b-5--sm {
       padding-bottom: 20px !important;
     }
-    .u-pad-b-6\@sm {
+    .u-pad-b-6--sm {
       padding-bottom: 24px !important;
     }
-    .u-pad-b-7\@sm {
+    .u-pad-b-7--sm {
       padding-bottom: 28px !important;
     }
-    .u-pad-b-8\@sm {
+    .u-pad-b-8--sm {
       padding-bottom: 32px !important;
     }
-    .u-pad-b-9\@sm {
+    .u-pad-b-9--sm {
       padding-bottom: 36px !important;
     }
-    .u-pad-b-10\@sm {
+    .u-pad-b-10--sm {
       padding-bottom: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-b-0\@md {
+    .u-pad-b-0--md {
       padding-bottom: 0 !important;
     }
-    .u-pad-b-1\@md {
+    .u-pad-b-1--md {
       padding-bottom: 4px !important;
     }
-    .u-pad-b-2\@md {
+    .u-pad-b-2--md {
       padding-bottom: 8px !important;
     }
-    .u-pad-b-3\@md {
+    .u-pad-b-3--md {
       padding-bottom: 12px !important;
     }
-    .u-pad-b-4\@md {
+    .u-pad-b-4--md {
       padding-bottom: 16px !important;
     }
-    .u-pad-b-5\@md {
+    .u-pad-b-5--md {
       padding-bottom: 20px !important;
     }
-    .u-pad-b-6\@md {
+    .u-pad-b-6--md {
       padding-bottom: 24px !important;
     }
-    .u-pad-b-7\@md {
+    .u-pad-b-7--md {
       padding-bottom: 28px !important;
     }
-    .u-pad-b-8\@md {
+    .u-pad-b-8--md {
       padding-bottom: 32px !important;
     }
-    .u-pad-b-9\@md {
+    .u-pad-b-9--md {
       padding-bottom: 36px !important;
     }
-    .u-pad-b-10\@md {
+    .u-pad-b-10--md {
       padding-bottom: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-b-0\@lg {
+    .u-pad-b-0--lg {
       padding-bottom: 0 !important;
     }
-    .u-pad-b-1\@lg {
+    .u-pad-b-1--lg {
       padding-bottom: 4px !important;
     }
-    .u-pad-b-2\@lg {
+    .u-pad-b-2--lg {
       padding-bottom: 8px !important;
     }
-    .u-pad-b-3\@lg {
+    .u-pad-b-3--lg {
       padding-bottom: 12px !important;
     }
-    .u-pad-b-4\@lg {
+    .u-pad-b-4--lg {
       padding-bottom: 16px !important;
     }
-    .u-pad-b-5\@lg {
+    .u-pad-b-5--lg {
       padding-bottom: 20px !important;
     }
-    .u-pad-b-6\@lg {
+    .u-pad-b-6--lg {
       padding-bottom: 24px !important;
     }
-    .u-pad-b-7\@lg {
+    .u-pad-b-7--lg {
       padding-bottom: 28px !important;
     }
-    .u-pad-b-8\@lg {
+    .u-pad-b-8--lg {
       padding-bottom: 32px !important;
     }
-    .u-pad-b-9\@lg {
+    .u-pad-b-9--lg {
       padding-bottom: 36px !important;
     }
-    .u-pad-b-10\@lg {
+    .u-pad-b-10--lg {
       padding-bottom: 40px !important;
     }
   }
@@ -5017,109 +5017,109 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-l-0\@sm {
+    .u-pad-l-0--sm {
       padding-left: 0 !important;
     }
-    .u-pad-l-1\@sm {
+    .u-pad-l-1--sm {
       padding-left: 4px !important;
     }
-    .u-pad-l-2\@sm {
+    .u-pad-l-2--sm {
       padding-left: 8px !important;
     }
-    .u-pad-l-3\@sm {
+    .u-pad-l-3--sm {
       padding-left: 12px !important;
     }
-    .u-pad-l-4\@sm {
+    .u-pad-l-4--sm {
       padding-left: 16px !important;
     }
-    .u-pad-l-5\@sm {
+    .u-pad-l-5--sm {
       padding-left: 20px !important;
     }
-    .u-pad-l-6\@sm {
+    .u-pad-l-6--sm {
       padding-left: 24px !important;
     }
-    .u-pad-l-7\@sm {
+    .u-pad-l-7--sm {
       padding-left: 28px !important;
     }
-    .u-pad-l-8\@sm {
+    .u-pad-l-8--sm {
       padding-left: 32px !important;
     }
-    .u-pad-l-9\@sm {
+    .u-pad-l-9--sm {
       padding-left: 36px !important;
     }
-    .u-pad-l-10\@sm {
+    .u-pad-l-10--sm {
       padding-left: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-l-0\@md {
+    .u-pad-l-0--md {
       padding-left: 0 !important;
     }
-    .u-pad-l-1\@md {
+    .u-pad-l-1--md {
       padding-left: 4px !important;
     }
-    .u-pad-l-2\@md {
+    .u-pad-l-2--md {
       padding-left: 8px !important;
     }
-    .u-pad-l-3\@md {
+    .u-pad-l-3--md {
       padding-left: 12px !important;
     }
-    .u-pad-l-4\@md {
+    .u-pad-l-4--md {
       padding-left: 16px !important;
     }
-    .u-pad-l-5\@md {
+    .u-pad-l-5--md {
       padding-left: 20px !important;
     }
-    .u-pad-l-6\@md {
+    .u-pad-l-6--md {
       padding-left: 24px !important;
     }
-    .u-pad-l-7\@md {
+    .u-pad-l-7--md {
       padding-left: 28px !important;
     }
-    .u-pad-l-8\@md {
+    .u-pad-l-8--md {
       padding-left: 32px !important;
     }
-    .u-pad-l-9\@md {
+    .u-pad-l-9--md {
       padding-left: 36px !important;
     }
-    .u-pad-l-10\@md {
+    .u-pad-l-10--md {
       padding-left: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-l-0\@lg {
+    .u-pad-l-0--lg {
       padding-left: 0 !important;
     }
-    .u-pad-l-1\@lg {
+    .u-pad-l-1--lg {
       padding-left: 4px !important;
     }
-    .u-pad-l-2\@lg {
+    .u-pad-l-2--lg {
       padding-left: 8px !important;
     }
-    .u-pad-l-3\@lg {
+    .u-pad-l-3--lg {
       padding-left: 12px !important;
     }
-    .u-pad-l-4\@lg {
+    .u-pad-l-4--lg {
       padding-left: 16px !important;
     }
-    .u-pad-l-5\@lg {
+    .u-pad-l-5--lg {
       padding-left: 20px !important;
     }
-    .u-pad-l-6\@lg {
+    .u-pad-l-6--lg {
       padding-left: 24px !important;
     }
-    .u-pad-l-7\@lg {
+    .u-pad-l-7--lg {
       padding-left: 28px !important;
     }
-    .u-pad-l-8\@lg {
+    .u-pad-l-8--lg {
       padding-left: 32px !important;
     }
-    .u-pad-l-9\@lg {
+    .u-pad-l-9--lg {
       padding-left: 36px !important;
     }
-    .u-pad-l-10\@lg {
+    .u-pad-l-10--lg {
       padding-left: 40px !important;
     }
   }
@@ -5180,141 +5180,141 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-h-0\@sm {
+    .u-pad-h-0--sm {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
-    .u-pad-h-1\@sm {
+    .u-pad-h-1--sm {
       padding-left: 4px !important;
       padding-right: 4px !important;
     }
-    .u-pad-h-2\@sm {
+    .u-pad-h-2--sm {
       padding-left: 8px !important;
       padding-right: 8px !important;
     }
-    .u-pad-h-3\@sm {
+    .u-pad-h-3--sm {
       padding-left: 12px !important;
       padding-right: 12px !important;
     }
-    .u-pad-h-4\@sm {
+    .u-pad-h-4--sm {
       padding-left: 16px !important;
       padding-right: 16px !important;
     }
-    .u-pad-h-5\@sm {
+    .u-pad-h-5--sm {
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
-    .u-pad-h-6\@sm {
+    .u-pad-h-6--sm {
       padding-left: 24px !important;
       padding-right: 24px !important;
     }
-    .u-pad-h-7\@sm {
+    .u-pad-h-7--sm {
       padding-left: 28px !important;
       padding-right: 28px !important;
     }
-    .u-pad-h-8\@sm {
+    .u-pad-h-8--sm {
       padding-left: 32px !important;
       padding-right: 32px !important;
     }
-    .u-pad-h-9\@sm {
+    .u-pad-h-9--sm {
       padding-left: 36px !important;
       padding-right: 36px !important;
     }
-    .u-pad-h-10\@sm {
+    .u-pad-h-10--sm {
       padding-left: 40px !important;
       padding-right: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-h-0\@md {
+    .u-pad-h-0--md {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
-    .u-pad-h-1\@md {
+    .u-pad-h-1--md {
       padding-left: 4px !important;
       padding-right: 4px !important;
     }
-    .u-pad-h-2\@md {
+    .u-pad-h-2--md {
       padding-left: 8px !important;
       padding-right: 8px !important;
     }
-    .u-pad-h-3\@md {
+    .u-pad-h-3--md {
       padding-left: 12px !important;
       padding-right: 12px !important;
     }
-    .u-pad-h-4\@md {
+    .u-pad-h-4--md {
       padding-left: 16px !important;
       padding-right: 16px !important;
     }
-    .u-pad-h-5\@md {
+    .u-pad-h-5--md {
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
-    .u-pad-h-6\@md {
+    .u-pad-h-6--md {
       padding-left: 24px !important;
       padding-right: 24px !important;
     }
-    .u-pad-h-7\@md {
+    .u-pad-h-7--md {
       padding-left: 28px !important;
       padding-right: 28px !important;
     }
-    .u-pad-h-8\@md {
+    .u-pad-h-8--md {
       padding-left: 32px !important;
       padding-right: 32px !important;
     }
-    .u-pad-h-9\@md {
+    .u-pad-h-9--md {
       padding-left: 36px !important;
       padding-right: 36px !important;
     }
-    .u-pad-h-10\@md {
+    .u-pad-h-10--md {
       padding-left: 40px !important;
       padding-right: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-h-0\@lg {
+    .u-pad-h-0--lg {
       padding-left: 0 !important;
       padding-right: 0 !important;
     }
-    .u-pad-h-1\@lg {
+    .u-pad-h-1--lg {
       padding-left: 4px !important;
       padding-right: 4px !important;
     }
-    .u-pad-h-2\@lg {
+    .u-pad-h-2--lg {
       padding-left: 8px !important;
       padding-right: 8px !important;
     }
-    .u-pad-h-3\@lg {
+    .u-pad-h-3--lg {
       padding-left: 12px !important;
       padding-right: 12px !important;
     }
-    .u-pad-h-4\@lg {
+    .u-pad-h-4--lg {
       padding-left: 16px !important;
       padding-right: 16px !important;
     }
-    .u-pad-h-5\@lg {
+    .u-pad-h-5--lg {
       padding-left: 20px !important;
       padding-right: 20px !important;
     }
-    .u-pad-h-6\@lg {
+    .u-pad-h-6--lg {
       padding-left: 24px !important;
       padding-right: 24px !important;
     }
-    .u-pad-h-7\@lg {
+    .u-pad-h-7--lg {
       padding-left: 28px !important;
       padding-right: 28px !important;
     }
-    .u-pad-h-8\@lg {
+    .u-pad-h-8--lg {
       padding-left: 32px !important;
       padding-right: 32px !important;
     }
-    .u-pad-h-9\@lg {
+    .u-pad-h-9--lg {
       padding-left: 36px !important;
       padding-right: 36px !important;
     }
-    .u-pad-h-10\@lg {
+    .u-pad-h-10--lg {
       padding-left: 40px !important;
       padding-right: 40px !important;
     }
@@ -5376,141 +5376,141 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-pad-v-0\@sm {
+    .u-pad-v-0--sm {
       padding-bottom: 0 !important;
       padding-top: 0 !important;
     }
-    .u-pad-v-1\@sm {
+    .u-pad-v-1--sm {
       padding-bottom: 4px !important;
       padding-top: 4px !important;
     }
-    .u-pad-v-2\@sm {
+    .u-pad-v-2--sm {
       padding-bottom: 8px !important;
       padding-top: 8px !important;
     }
-    .u-pad-v-3\@sm {
+    .u-pad-v-3--sm {
       padding-bottom: 12px !important;
       padding-top: 12px !important;
     }
-    .u-pad-v-4\@sm {
+    .u-pad-v-4--sm {
       padding-bottom: 16px !important;
       padding-top: 16px !important;
     }
-    .u-pad-v-5\@sm {
+    .u-pad-v-5--sm {
       padding-bottom: 20px !important;
       padding-top: 20px !important;
     }
-    .u-pad-v-6\@sm {
+    .u-pad-v-6--sm {
       padding-bottom: 24px !important;
       padding-top: 24px !important;
     }
-    .u-pad-v-7\@sm {
+    .u-pad-v-7--sm {
       padding-bottom: 28px !important;
       padding-top: 28px !important;
     }
-    .u-pad-v-8\@sm {
+    .u-pad-v-8--sm {
       padding-bottom: 32px !important;
       padding-top: 32px !important;
     }
-    .u-pad-v-9\@sm {
+    .u-pad-v-9--sm {
       padding-bottom: 36px !important;
       padding-top: 36px !important;
     }
-    .u-pad-v-10\@sm {
+    .u-pad-v-10--sm {
       padding-bottom: 40px !important;
       padding-top: 40px !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-pad-v-0\@md {
+    .u-pad-v-0--md {
       padding-bottom: 0 !important;
       padding-top: 0 !important;
     }
-    .u-pad-v-1\@md {
+    .u-pad-v-1--md {
       padding-bottom: 4px !important;
       padding-top: 4px !important;
     }
-    .u-pad-v-2\@md {
+    .u-pad-v-2--md {
       padding-bottom: 8px !important;
       padding-top: 8px !important;
     }
-    .u-pad-v-3\@md {
+    .u-pad-v-3--md {
       padding-bottom: 12px !important;
       padding-top: 12px !important;
     }
-    .u-pad-v-4\@md {
+    .u-pad-v-4--md {
       padding-bottom: 16px !important;
       padding-top: 16px !important;
     }
-    .u-pad-v-5\@md {
+    .u-pad-v-5--md {
       padding-bottom: 20px !important;
       padding-top: 20px !important;
     }
-    .u-pad-v-6\@md {
+    .u-pad-v-6--md {
       padding-bottom: 24px !important;
       padding-top: 24px !important;
     }
-    .u-pad-v-7\@md {
+    .u-pad-v-7--md {
       padding-bottom: 28px !important;
       padding-top: 28px !important;
     }
-    .u-pad-v-8\@md {
+    .u-pad-v-8--md {
       padding-bottom: 32px !important;
       padding-top: 32px !important;
     }
-    .u-pad-v-9\@md {
+    .u-pad-v-9--md {
       padding-bottom: 36px !important;
       padding-top: 36px !important;
     }
-    .u-pad-v-10\@md {
+    .u-pad-v-10--md {
       padding-bottom: 40px !important;
       padding-top: 40px !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-pad-v-0\@lg {
+    .u-pad-v-0--lg {
       padding-bottom: 0 !important;
       padding-top: 0 !important;
     }
-    .u-pad-v-1\@lg {
+    .u-pad-v-1--lg {
       padding-bottom: 4px !important;
       padding-top: 4px !important;
     }
-    .u-pad-v-2\@lg {
+    .u-pad-v-2--lg {
       padding-bottom: 8px !important;
       padding-top: 8px !important;
     }
-    .u-pad-v-3\@lg {
+    .u-pad-v-3--lg {
       padding-bottom: 12px !important;
       padding-top: 12px !important;
     }
-    .u-pad-v-4\@lg {
+    .u-pad-v-4--lg {
       padding-bottom: 16px !important;
       padding-top: 16px !important;
     }
-    .u-pad-v-5\@lg {
+    .u-pad-v-5--lg {
       padding-bottom: 20px !important;
       padding-top: 20px !important;
     }
-    .u-pad-v-6\@lg {
+    .u-pad-v-6--lg {
       padding-bottom: 24px !important;
       padding-top: 24px !important;
     }
-    .u-pad-v-7\@lg {
+    .u-pad-v-7--lg {
       padding-bottom: 28px !important;
       padding-top: 28px !important;
     }
-    .u-pad-v-8\@lg {
+    .u-pad-v-8--lg {
       padding-bottom: 32px !important;
       padding-top: 32px !important;
     }
-    .u-pad-v-9\@lg {
+    .u-pad-v-9--lg {
       padding-bottom: 36px !important;
       padding-top: 36px !important;
     }
-    .u-pad-v-10\@lg {
+    .u-pad-v-10--lg {
       padding-bottom: 40px !important;
       padding-top: 40px !important;
     }
@@ -5533,46 +5533,46 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .tx-justify\@sm {
+    .tx-justify--sm {
       text-align: justify !important;
     }
-    .tx-left\@sm {
+    .tx-left--sm {
       text-align: left !important;
     }
-    .tx-center\@sm {
+    .tx-center--sm {
       text-align: center !important;
     }
-    .tx-right\@sm {
+    .tx-right--sm {
       text-align: right !important;
     }
   }
 
   @media (min-width: 768px) {
-    .tx-justify\@md {
+    .tx-justify--md {
       text-align: justify !important;
     }
-    .tx-left\@md {
+    .tx-left--md {
       text-align: left !important;
     }
-    .tx-center\@md {
+    .tx-center--md {
       text-align: center !important;
     }
-    .tx-right\@md {
+    .tx-right--md {
       text-align: right !important;
     }
   }
 
   @media (min-width: 992px) {
-    .tx-justify\@lg {
+    .tx-justify--lg {
       text-align: justify !important;
     }
-    .tx-left\@lg {
+    .tx-left--lg {
       text-align: left !important;
     }
-    .tx-center\@lg {
+    .tx-center--lg {
       text-align: center !important;
     }
-    .tx-right\@lg {
+    .tx-right--lg {
       text-align: right !important;
     }
   }
@@ -5634,64 +5634,64 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .tx-h1\@sm {
+    .tx-h1--sm {
       font-size: 3rem !important;
     }
-    .tx-h2\@sm {
+    .tx-h2--sm {
       font-size: 2.25rem !important;
     }
-    .tx-h3\@sm {
+    .tx-h3--sm {
       font-size: 1.5rem !important;
     }
-    .tx-h4\@sm {
+    .tx-h4--sm {
       font-size: 1.25rem !important;
     }
-    .tx-h5\@sm {
+    .tx-h5--sm {
       font-size: 1rem !important;
     }
-    .tx-h6\@sm {
+    .tx-h6--sm {
       font-size: 0.875rem !important;
     }
   }
 
   @media (min-width: 768px) {
-    .tx-h1\@md {
+    .tx-h1--md {
       font-size: 3rem !important;
     }
-    .tx-h2\@md {
+    .tx-h2--md {
       font-size: 2.25rem !important;
     }
-    .tx-h3\@md {
+    .tx-h3--md {
       font-size: 1.5rem !important;
     }
-    .tx-h4\@md {
+    .tx-h4--md {
       font-size: 1.25rem !important;
     }
-    .tx-h5\@md {
+    .tx-h5--md {
       font-size: 1rem !important;
     }
-    .tx-h6\@md {
+    .tx-h6--md {
       font-size: 0.875rem !important;
     }
   }
 
   @media (min-width: 992px) {
-    .tx-h1\@lg {
+    .tx-h1--lg {
       font-size: 3rem !important;
     }
-    .tx-h2\@lg {
+    .tx-h2--lg {
       font-size: 2.25rem !important;
     }
-    .tx-h3\@lg {
+    .tx-h3--lg {
       font-size: 1.5rem !important;
     }
-    .tx-h4\@lg {
+    .tx-h4--lg {
       font-size: 1.25rem !important;
     }
-    .tx-h5\@lg {
+    .tx-h5--lg {
       font-size: 1rem !important;
     }
-    .tx-h6\@lg {
+    .tx-h6--lg {
       font-size: 0.875rem !important;
     }
   }
@@ -5713,46 +5713,46 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .tx-headline-1\@sm {
+    .tx-headline-1--sm {
       font-size: 5rem !important;
     }
-    .tx-headline-2\@sm {
+    .tx-headline-2--sm {
       font-size: 4.5rem !important;
     }
-    .tx-headline-3\@sm {
+    .tx-headline-3--sm {
       font-size: 4rem !important;
     }
-    .tx-headline-4\@sm {
+    .tx-headline-4--sm {
       font-size: 3.5rem !important;
     }
   }
 
   @media (min-width: 768px) {
-    .tx-headline-1\@md {
+    .tx-headline-1--md {
       font-size: 5rem !important;
     }
-    .tx-headline-2\@md {
+    .tx-headline-2--md {
       font-size: 4.5rem !important;
     }
-    .tx-headline-3\@md {
+    .tx-headline-3--md {
       font-size: 4rem !important;
     }
-    .tx-headline-4\@md {
+    .tx-headline-4--md {
       font-size: 3.5rem !important;
     }
   }
 
   @media (min-width: 992px) {
-    .tx-headline-1\@lg {
+    .tx-headline-1--lg {
       font-size: 5rem !important;
     }
-    .tx-headline-2\@lg {
+    .tx-headline-2--lg {
       font-size: 4.5rem !important;
     }
-    .tx-headline-3\@lg {
+    .tx-headline-3--lg {
       font-size: 4rem !important;
     }
-    .tx-headline-4\@lg {
+    .tx-headline-4--lg {
       font-size: 3.5rem !important;
     }
   }
@@ -5778,55 +5778,55 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .tx-lh-heading\@sm {
+    .tx-lh-heading--sm {
       line-height: 1.2 !important;
     }
-    .tx-lh-body\@sm {
+    .tx-lh-body--sm {
       line-height: 1.5 !important;
     }
-    .tx-lh-copy\@sm {
+    .tx-lh-copy--sm {
       line-height: 1.6 !important;
     }
-    .tx-lh-reset\@sm {
+    .tx-lh-reset--sm {
       line-height: 1 !important;
     }
-    .tx-lh-none\@sm {
+    .tx-lh-none--sm {
       line-height: 0 !important;
     }
   }
 
   @media (min-width: 768px) {
-    .tx-lh-heading\@md {
+    .tx-lh-heading--md {
       line-height: 1.2 !important;
     }
-    .tx-lh-body\@md {
+    .tx-lh-body--md {
       line-height: 1.5 !important;
     }
-    .tx-lh-copy\@md {
+    .tx-lh-copy--md {
       line-height: 1.6 !important;
     }
-    .tx-lh-reset\@md {
+    .tx-lh-reset--md {
       line-height: 1 !important;
     }
-    .tx-lh-none\@md {
+    .tx-lh-none--md {
       line-height: 0 !important;
     }
   }
 
   @media (min-width: 992px) {
-    .tx-lh-heading\@lg {
+    .tx-lh-heading--lg {
       line-height: 1.2 !important;
     }
-    .tx-lh-body\@lg {
+    .tx-lh-body--lg {
       line-height: 1.5 !important;
     }
-    .tx-lh-copy\@lg {
+    .tx-lh-copy--lg {
       line-height: 1.6 !important;
     }
-    .tx-lh-reset\@lg {
+    .tx-lh-reset--lg {
       line-height: 1 !important;
     }
-    .tx-lh-none\@lg {
+    .tx-lh-none--lg {
       line-height: 0 !important;
     }
   }
@@ -5856,64 +5856,64 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .tx-lead\@sm {
+    .tx-lead--sm {
       font-size: 1.25rem !important;
     }
-    .tx-xl\@sm {
+    .tx-xl--sm {
       font-size: 1.28rem !important;
     }
-    .tx-lg\@sm {
+    .tx-lg--sm {
       font-size: 1.14rem !important;
     }
-    .tx-md\@sm {
+    .tx-md--sm {
       font-size: 1rem !important;
     }
-    .tx-sm\@sm {
+    .tx-sm--sm {
       font-size: 0.92rem !important;
     }
-    .tx-xs\@sm {
+    .tx-xs--sm {
       font-size: 0.78rem !important;
     }
   }
 
   @media (min-width: 768px) {
-    .tx-lead\@md {
+    .tx-lead--md {
       font-size: 1.25rem !important;
     }
-    .tx-xl\@md {
+    .tx-xl--md {
       font-size: 1.28rem !important;
     }
-    .tx-lg\@md {
+    .tx-lg--md {
       font-size: 1.14rem !important;
     }
-    .tx-md\@md {
+    .tx-md--md {
       font-size: 1rem !important;
     }
-    .tx-sm\@md {
+    .tx-sm--md {
       font-size: 0.92rem !important;
     }
-    .tx-xs\@md {
+    .tx-xs--md {
       font-size: 0.78rem !important;
     }
   }
 
   @media (min-width: 992px) {
-    .tx-lead\@lg {
+    .tx-lead--lg {
       font-size: 1.25rem !important;
     }
-    .tx-xl\@lg {
+    .tx-xl--lg {
       font-size: 1.28rem !important;
     }
-    .tx-lg\@lg {
+    .tx-lg--lg {
       font-size: 1.14rem !important;
     }
-    .tx-md\@lg {
+    .tx-md--lg {
       font-size: 1rem !important;
     }
-    .tx-sm\@lg {
+    .tx-sm--lg {
       font-size: 0.92rem !important;
     }
-    .tx-xs\@lg {
+    .tx-xs--lg {
       font-size: 0.78rem !important;
     }
   }
@@ -6096,127 +6096,127 @@ export const JeffsumStyles = css`
   }
 
   @media (min-width: 544px) {
-    .u-width-0\@sm {
+    .u-width-0--sm {
       width: 0% !important;
     }
-    .u-width-1\@sm {
+    .u-width-1--sm {
       width: 8.33333% !important;
     }
-    .u-width-2\@sm {
+    .u-width-2--sm {
       width: 16.66667% !important;
     }
-    .u-width-3\@sm {
+    .u-width-3--sm {
       width: 25% !important;
     }
-    .u-width-4\@sm {
+    .u-width-4--sm {
       width: 33.33333% !important;
     }
-    .u-width-5\@sm {
+    .u-width-5--sm {
       width: 41.66667% !important;
     }
-    .u-width-6\@sm {
+    .u-width-6--sm {
       width: 50% !important;
     }
-    .u-width-7\@sm {
+    .u-width-7--sm {
       width: 58.33333% !important;
     }
-    .u-width-8\@sm {
+    .u-width-8--sm {
       width: 66.66667% !important;
     }
-    .u-width-9\@sm {
+    .u-width-9--sm {
       width: 75% !important;
     }
-    .u-width-10\@sm {
+    .u-width-10--sm {
       width: 83.33333% !important;
     }
-    .u-width-11\@sm {
+    .u-width-11--sm {
       width: 91.66667% !important;
     }
-    .u-width-12\@sm {
+    .u-width-12--sm {
       width: 100% !important;
     }
   }
 
   @media (min-width: 768px) {
-    .u-width-0\@md {
+    .u-width-0--md {
       width: 0% !important;
     }
-    .u-width-1\@md {
+    .u-width-1--md {
       width: 8.33333% !important;
     }
-    .u-width-2\@md {
+    .u-width-2--md {
       width: 16.66667% !important;
     }
-    .u-width-3\@md {
+    .u-width-3--md {
       width: 25% !important;
     }
-    .u-width-4\@md {
+    .u-width-4--md {
       width: 33.33333% !important;
     }
-    .u-width-5\@md {
+    .u-width-5--md {
       width: 41.66667% !important;
     }
-    .u-width-6\@md {
+    .u-width-6--md {
       width: 50% !important;
     }
-    .u-width-7\@md {
+    .u-width-7--md {
       width: 58.33333% !important;
     }
-    .u-width-8\@md {
+    .u-width-8--md {
       width: 66.66667% !important;
     }
-    .u-width-9\@md {
+    .u-width-9--md {
       width: 75% !important;
     }
-    .u-width-10\@md {
+    .u-width-10--md {
       width: 83.33333% !important;
     }
-    .u-width-11\@md {
+    .u-width-11--md {
       width: 91.66667% !important;
     }
-    .u-width-12\@md {
+    .u-width-12--md {
       width: 100% !important;
     }
   }
 
   @media (min-width: 992px) {
-    .u-width-0\@lg {
+    .u-width-0--lg {
       width: 0% !important;
     }
-    .u-width-1\@lg {
+    .u-width-1--lg {
       width: 8.33333% !important;
     }
-    .u-width-2\@lg {
+    .u-width-2--lg {
       width: 16.66667% !important;
     }
-    .u-width-3\@lg {
+    .u-width-3--lg {
       width: 25% !important;
     }
-    .u-width-4\@lg {
+    .u-width-4--lg {
       width: 33.33333% !important;
     }
-    .u-width-5\@lg {
+    .u-width-5--lg {
       width: 41.66667% !important;
     }
-    .u-width-6\@lg {
+    .u-width-6--lg {
       width: 50% !important;
     }
-    .u-width-7\@lg {
+    .u-width-7--lg {
       width: 58.33333% !important;
     }
-    .u-width-8\@lg {
+    .u-width-8--lg {
       width: 66.66667% !important;
     }
-    .u-width-9\@lg {
+    .u-width-9--lg {
       width: 75% !important;
     }
-    .u-width-10\@lg {
+    .u-width-10--lg {
       width: 83.33333% !important;
     }
-    .u-width-11\@lg {
+    .u-width-11--lg {
       width: 91.66667% !important;
     }
-    .u-width-12\@lg {
+    .u-width-12--lg {
       width: 100% !important;
     }
   }
