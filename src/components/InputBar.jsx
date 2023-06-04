@@ -1,3 +1,3 @@
-export default InputBar = () => {
+export default function InputBar() {
   return <div>InputBar</div>;
 };
