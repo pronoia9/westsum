@@ -10,7 +10,7 @@ export default function Hero() {
           <CMaker>
             <p>
               <span>I made this?</span>{' '}
-              <a href='https://www.twitter.com/seanehalpin' target='_blank' rel='noreferrer'>
+              <a href='https://jeffsum.com/' target='_blank' rel='noreferrer'>
                 He made this.
               </a>
             </p>
@@ -70,8 +70,7 @@ const CMaker = styled.div`
   padding: 1.5em;
   z-index: 100;
 
-  p,
-  a {
+  p, a {
     color: #fff;
   }
 
@@ -87,7 +86,7 @@ const CMaker = styled.div`
     opacity: 0.7;
     font-weight: 500;
 
-    &::hover {
+    &:hover {
       text-decoration: none;
       opacity: 1;
     }
