@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme, lightTheme } from './styles/Themes';
-import Hero from './components/Hero';
+import {Hero} from './components';
 
 const App = () => {
   // THEME RELATED STUFF
@@ -13,8 +13,8 @@ const App = () => {
   useEffect(() => {
     const systemThemeChangeHandler = (e) => { setTheme(e.matches ? 'dark' : 'light'); };
     const systemThemeWatcher = window.matchMedia('(prefers-color-scheme: dark)');
-    systemThemeWatcher.addEventListener(systemThemeChangeHandler);
-    return () => { systemThemeWatcher.removeEventListener(systemThemeChangeHandler); };
+    systemThemeWatcher.addEventListener('change', systemThemeChangeHandler);
+    return () => { systemThemeWatcher.removeEventListener('change', systemThemeChangeHandler); };
   }, []);
 
   return (
