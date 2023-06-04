@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import { Hero, InputBar, Quotes, ThemeButton } from './components';
@@ -9,6 +9,10 @@ import { isDarkTheme, systemThemeChangeHandler } from './utils/utils';
 const App = () => {
   // STATE
   const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  // REFS
+  const imageRefs = useRef([]), backgroundRefs = useRef([]);
+  useEffect(() => { console.log(imageRefs) }, [imageRefs]);
+  useEffect(() => { console.log(backgroundRefs) }, [backgroundRefs]);
 
   // EVENT LISTENER FOR SYSTEM THEME CHANGE
   useEffect(() => {
@@ -22,7 +26,7 @@ const App = () => {
       <>
         <GlobalStyles />
         <ThemeButton />
-        <Hero />
+        <Hero imageRefs={imageRefs} backgroundRefs={backgroundRefs} />
         <InputBar />
         <Quotes />
       </>

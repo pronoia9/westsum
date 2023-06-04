@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
-export default function HeroBackground() {
+export default function HeroBackground({ backgroundRefs }) {
   return (
     <>
-      <Background className={`one`} />
+      {[...Array(3)].map((d, index) => (
+        <Background ref={(ref) => backgroundRefs.current.push(ref)} key={`background-${index}`} className={`bg-${index + 1}`} />
+      ))}
     </>
   );
 }
@@ -17,19 +19,19 @@ const Background = styled.div`
   right: 0;
   bottom: 0;
 
-  &.one {
+  &.bg-1 {
     background-image: -webkit-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
     background-image: -o-linear-gradient(152deg, #61bfd9 16%, #0551b4 67%);
     background-image: linear-gradient(242deg, #61bfd9 16%, #0551b4 67%);
   }
 
-  &.two {
+  &.bg-2 {
     background-image: -webkit-linear-gradient(152deg, #15af88 16%, #6c429a 67%);
     background-image: -o-linear-gradient(152deg, #15af88 16%, #6c429a 67%);
     background-image: linear-gradient(242deg, #15af88 16%, #6c429a 67%);
   }
 
-  &.three {
+  &.bg-3 {
     background-image: -webkit-linear-gradient(152deg, #eea031 18%, #930560 67%);
     background-image: -o-linear-gradient(152deg, #eea031 18%, #930560 67%);
     background-image: linear-gradient(242deg, #eea031 18%, #930560 67%);

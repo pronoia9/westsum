@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 import { heroImages } from '../utils/data';
 
-export default function HeroImage() {
+export default function HeroImage({ imageRefs }) {
   return (
     <Container>
       {heroImages.map((image, index) => (
-        <Image key={`image-${index}`} {...image} />
+        <Image ref={(element) => imageRefs.current.push(element)} key={`image-${index}`} {...image} />
       ))}
     </Container>
   );

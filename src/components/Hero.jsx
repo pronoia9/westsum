@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { HeroMaker, HeroTitle, HeroImage, HeroBackground } from './';
 
-export default function Hero() {
+export default function Hero({ imageRefs, backgroundRefs }) {
   return (
     <>
       <CHero>
@@ -10,10 +10,10 @@ export default function Hero() {
           <ORow>
             <HeroMaker />
             <HeroTitle />
-            <HeroImage />
+            <HeroImage imageRefs={imageRefs} />
           </ORow>
         </OContainer>
-        <HeroBackground />
+        <HeroBackground backgroundRefs={backgroundRefs} />
       </CHero>
     </>
   );
