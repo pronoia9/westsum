@@ -3,53 +3,30 @@ import { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme, lightTheme } from './styles/Themes';
+import Hero from './components/Hero';
 
 const App = () => {
-  // Check if the user's system theme preference is dark
-  const prefersDarkTheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-  // Set the initial theme based on the user's system theme preference
-  const [theme, setTheme] = useState(prefersDarkTheme ? 'dark' : 'light');
-
-  // Determine if the current theme is dark or light
-  const isDarkTheme = theme === 'dark';
-
-  // Toggle the theme between dark and light
-  const toggleTheme = () => setTheme(isDarkTheme ? 'light' : 'dark');
-
+  // THEME RELATED STUFF
+  const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const isDarkTheme = () => theme === 'dark';
+  const toggleTheme = () => setTheme(isDarkTheme() ? 'light' : 'dark');
   useEffect(() => {
-    // Function to handle changes in the system theme preference
-    const systemThemeChangeHandler = (e) => {
-      // Update the theme based on the new system theme preference
-      setTheme(e.matches ? 'dark' : 'light');
-    };
-
-    // Add a listener to detect changes in the system theme preference
+    const systemThemeChangeHandler = (e) => { setTheme(e.matches ? 'dark' : 'light'); };
     const systemThemeWatcher = window.matchMedia('(prefers-color-scheme: dark)');
-    systemThemeWatcher.addListener(systemThemeChangeHandler);
-
-    // Clean up the listener when the component is unmounted
-    return () => {
-      systemThemeWatcher.removeListener(systemThemeChangeHandler);
-    };
+    systemThemeWatcher.addEventListener(systemThemeChangeHandler);
+    return () => { systemThemeWatcher.removeEventListener(systemThemeChangeHandler); };
   }, []);
 
   return (
-    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDarkTheme() ? darkTheme : lightTheme}>
       <>
         <GlobalStyles />
         <h1>Hello!</h1>
-        <button onClick={toggleTheme}>
-          {isDarkTheme ? (
-            <span aria-label='Light mode' role='img'>
-              🌞
-            </span>
-          ) : (
-            <span aria-label='Dark mode' role='img'>
-              🌜
-            </span>
+        {/* <button onClick={toggleTheme}>
+          {isDarkTheme ? (<span aria-label='Light mode' role='img'>🌞</span>) : (<span aria-label='Dark mode' role='img'>🌜</span>
           )}
-        </button>
+        </button> */}
+        <Hero />
       </>
     </ThemeProvider>
   );
