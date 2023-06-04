@@ -4,16 +4,18 @@ import { HeroMaker, HeroTitle, HeroImage, HeroBackground } from './';
 
 export default function Hero() {
   return (
-    <CHero>
-      <OContainer>
-        <ORow>
-          <HeroMaker />
-          <HeroTitle />
-          <HeroImage />
-        </ORow>
-      </OContainer>
-      <HeroBackground />
-    </CHero>
+    <>
+      <CHero>
+        <OContainer>
+          <ORow className='o-row u-pos-relative'>
+            <HeroMaker />
+            <HeroTitle />
+            <HeroImage />
+          </ORow>
+        </OContainer>
+        <HeroBackground />
+      </CHero>
+    </>
   );
 }
 
@@ -44,7 +46,7 @@ const OContainer = styled.div`
 `;
 
 const ORow = styled.div`
-  position: relative;
+  position: relative !important;
   box-sizing: border-box;
   margin-left: -15px;
   margin-right: -15px;
