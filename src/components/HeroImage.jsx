@@ -5,7 +5,9 @@ import { heroImages } from '../utils/data';
 export default function HeroImage() {
   return (
     <Container>
-      <Image src={heroImages[0]} />
+      {heroImages.map((image, index) => (
+        <Image key={`image-${index}`} {...image} />
+      ))}
     </Container>
   );
 }
