@@ -4,25 +4,21 @@ import { ThemeProvider } from 'styled-components';
 import { Hero, Quotes, ThemeButton } from './components';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme, lightTheme } from './styles/Themes';
+import { isDarkTheme, systemThemeChangeHandler } from './utils/utils';
 
 const App = () => {
-  // THEME RELATED STUFF
+  // STATE
   const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  const isDarkTheme = () => theme === 'dark';
-  const toggleTheme = () => setTheme(isDarkTheme() ? 'light' : 'dark');
+
+  // EVENT LISTENER FOR SYSTEM THEME CHANGE
   useEffect(() => {
-    const systemThemeChangeHandler = (e) => {
-      setTheme(e.matches ? 'dark' : 'light');
-    };
     const systemThemeWatcher = window.matchMedia('(prefers-color-scheme: dark)');
-    systemThemeWatcher.addEventListener('change', systemThemeChangeHandler);
-    return () => {
-      systemThemeWatcher.removeEventListener('change', systemThemeChangeHandler);
-    };
+    systemThemeWatcher.addEventListener('change', () => systemThemeChangeHandler(e, setTheme));
+    return () => { systemThemeWatcher.removeEventListener('change', systemThemeChangeHandler); };
   }, []);
 
   return (
-    <ThemeProvider theme={isDarkTheme() ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isDarkTheme(theme) ? darkTheme : lightTheme}>
       <>
         <GlobalStyles />
         <ThemeButton />
