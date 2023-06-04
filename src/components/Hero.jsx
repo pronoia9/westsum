@@ -12,6 +12,7 @@ export default function Hero() {
           <HeroImage />
         </ORow>
       </OContainer>
+      <HeroBackground />
     </CHero>
   );
 }
