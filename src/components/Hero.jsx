@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { HeroMaker, HeroBackground, HeroPortrait } from './';
+import { HeroMaker, HeroTitle, HeroBackground, HeroPortrait } from './';
 
 export default function Hero() {
   return (
@@ -8,12 +8,8 @@ export default function Hero() {
       <OContainer>
         <ORow>
           <HeroMaker />
-
-          {/* Gradient Background */}
-          <OCol></OCol>
-
-          {/* Portrait */}
-          <CHeroImage></CHeroImage>
+          <HeroTitle />
+          <HeroPortrait />
         </ORow>
       </OContainer>
     </CHero>
@@ -58,10 +54,3 @@ const ORow = styled.div`
     display: table;
   }
 `;
-
-const OCol = styled.div`
-  width: 83.33333%;
-  margin-left: 8.33333%;
-`;
-
-const CHeroImage = styled.div``;
