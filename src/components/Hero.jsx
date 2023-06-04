@@ -1,25 +1,21 @@
 import styled from 'styled-components';
 
-import Portrait from './Portrait';
+import { HeroMaker, HeroBackground, HeroPortrait } from './';
 
 export default function Hero() {
   return (
     <CHero>
       <OContainer>
         <ORow>
-          <CMaker>
-            <p>
-              <span>I made this?</span>{' '}
-              <a href='https://jeffsum.com/' target='_blank' rel='noreferrer'>
-                He made this.
-              </a>
-            </p>
-          </CMaker>
+          <HeroMaker />
+
+          {/* Gradient Background */}
           <OCol></OCol>
+
+          {/* Portrait */}
           <CHeroImage></CHeroImage>
         </ORow>
       </OContainer>
-      <Portrait />
     </CHero>
   );
 }
@@ -63,36 +59,9 @@ const ORow = styled.div`
   }
 `;
 
-const CMaker = styled.div`
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 1.5em;
-  z-index: 100;
-
-  p, a {
-    color: #fff;
-  }
-
-  span {
-    opacity: 0.7;
-  }
-
-  a {
-    text-decoration: none;
-    position: relative;
-    z-index: 10;
-    text-decoration: line-through;
-    opacity: 0.7;
-    font-weight: 500;
-
-    &:hover {
-      text-decoration: none;
-      opacity: 1;
-    }
-  }
+const OCol = styled.div`
+  width: 83.33333%;
+  margin-left: 8.33333%;
 `;
-
-const OCol = styled.div``;
 
 const CHeroImage = styled.div``;
