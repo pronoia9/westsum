@@ -59,30 +59,14 @@ const showBubble = keyframes`
  * ----------------------------------------
  */
   0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    transform: scale(0.5);
+    filter: blur(4px);
     opacity: 0;
   }
-  38% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  95% {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
   100% {
-    -webkit-transform: scale(1);
     transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+    filter: blur(0px);
+    opacity: 1;
   }
 `;
 
