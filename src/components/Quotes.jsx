@@ -123,7 +123,7 @@ const Bubble = styled.p`
   position: relative;
   clear: both;
   display: inline-block;
-  max-width: 50%;
+  max-width: 62.5%;
   padding: 14px;
   margin: 0 0 50px 0;
   border-radius: 10px;
@@ -172,6 +172,16 @@ const Bubble = styled.p`
     img {
       left: -65px;
     }
+  }
+
+  @media (min-width: 425px) {
+    max-width: 67.5%;
+  }
+  @media (min-width: 768px) {
+    max-width: 60%;
+  }
+  @media (min-width: 992px) {
+    max-width: 50%;
   }
 `;
 
