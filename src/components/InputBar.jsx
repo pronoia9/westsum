@@ -87,12 +87,13 @@ const DivTrain4 = styled.div`
 
 const DivTrain5 = styled.div`
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
-  align-items: flex-start;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
   @media (min-width: 992px) {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
   }
 `;
 
@@ -214,5 +215,10 @@ const Button = styled.button`
   @media (min-width: 992px) {
     width: auto;
   }
-`;
 
+  @media (min-width: 991px) {
+    @media (max-width: 1069px) {
+      height: 132px;
+    }
+  }
+`;
