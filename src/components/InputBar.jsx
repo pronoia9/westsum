@@ -106,11 +106,9 @@ const TextContainer = styled.div`
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
+  min-height: 76px;
+  max-height: 140px;
   flex: 1;
-
-  @media (min-width: 992px) {
-    height: 76px;
-  }
 `;
 
 const TextWrapper = styled.div`
@@ -204,7 +202,8 @@ const Button = styled.button`
   font-size: 20px;
   letter-spacing: -0.5px;
   border: 0;
-  height: 76px;
+  min-height: 76px;
+  max-height: 140px;
   padding: 0 2em;
   transition: background 0.3s ease-in-out;
 
