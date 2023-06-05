@@ -24,18 +24,17 @@ import styled, { css, keyframes } from 'styled-components';
 
 import { kanyemojis } from '../utils/data';
 
-export default function Quotes() {
+export default function Quotes({ quotes }) {
   return (
     <DivTrain1>
       <DivTrain2>
         <DivTrain3>
           <DivTrain4>
-            <Bubble img={kanyemojis[0]} index={0} className='right'>
-              Are we dogs??? 🐶
-            </Bubble>
-            <Bubble img={kanyemojis[1]} index={1} className='left'>
-              no... we're human
-            </Bubble>
+            {quotes?.map((q, index) => (
+              <Bubble key={`quote-${index}`} img={kanyemojis[index]} index={index} className={index % 2 ? 'left' : 'right'}>
+                {q}
+              </Bubble>
+            ))}
           </DivTrain4>
         </DivTrain3>
       </DivTrain2>
