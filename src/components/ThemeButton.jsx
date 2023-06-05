@@ -182,9 +182,9 @@ const twinkle = keyframes`
 `;
 
 const Container = styled.div`
-  z-index: 999;
-  position: relative;
-  top: -2px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
 
   .toggle__backdrop:first-of-type .clouds path:first-of-type {
     fill: hsl(0 0% 100% / 0.5);
@@ -193,6 +193,7 @@ const Container = styled.div`
   .toggle {
     -webkit-tap-highlight-color: transparent;
     width: clamp(25px, 6.62vmin, 62.5px);
+    /* width: clamp(25px, 6.62vmin, 62.5px); */
     /* random attempts at tackling the overflow iOS issue */
     z-index: 10;
     will-change: transform;
