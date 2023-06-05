@@ -57,10 +57,8 @@ const App = () => {
   // EVENT LISTENER FOR SYSTEM THEME CHANGE
   useEffect(() => {
     const systemThemeWatcher = window.matchMedia('(prefers-color-scheme: dark)');
-    systemThemeWatcher.addEventListener('change', () => systemThemeChangeHandler(e, setTheme));
-    return () => {
-      systemThemeWatcher.removeEventListener('change', systemThemeChangeHandler);
-    };
+    systemThemeWatcher.addEventListener('change', (e) => systemThemeChangeHandler(e, setTheme));
+    return () => { systemThemeWatcher.removeEventListener('change', systemThemeChangeHandler); };
   }, []);
 
   return (
