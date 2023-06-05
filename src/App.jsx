@@ -9,14 +9,14 @@ import { heroAnimation, isDarkTheme, systemThemeChangeHandler } from './utils/ut
 const App = () => {
   // STATE
   const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const [count, setCount] = useState(5), [quotes, setQuotes] = useState();
   // REFS
   const imageRefs = useRef([]),
     backgroundRefs = useRef([]),
     buttonRef = useRef();
 
-  useLayoutEffect(() => {
-    heroAnimation(imageRefs, backgroundRefs, buttonRef);
-  }, []);
+  // GSAP ANIMATION OF HEADER BG + IMAGE
+  useLayoutEffect(() => { heroAnimation(imageRefs, backgroundRefs, buttonRef); }, []);
 
   // EVENT LISTENER FOR SYSTEM THEME CHANGE
   useEffect(() => {
@@ -30,8 +30,8 @@ const App = () => {
       <>
         <GlobalStyles />
         <Hero imageRefs={imageRefs} backgroundRefs={backgroundRefs} theme={theme} setTheme={setTheme} />
-        <InputBar buttonRef={buttonRef} />
-        <Quotes />
+        <InputBar buttonRef={buttonRef} count={count} setCount={setCount} setQuotes={setQuotes} />
+        <Quotes quotes={quotes} />
       </>
     </ThemeProvider>
   );
