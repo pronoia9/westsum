@@ -91,10 +91,10 @@ const avatarAnimation = keyframes`
 
 /************************  STYLES  ************************/
 const DivTrain1 = styled.div`
-  padding: 0 0 5em;
+  padding: 0;
 
   @media (min-width: 992px) {
-    padding: 5.5em 0 6.5em;
+    padding: 5.5em 0 0 0;
   }
 `;
 
