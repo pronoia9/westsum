@@ -31,7 +31,7 @@ export default function Quotes({ quotes }) {
         <DivTrain3>
           <DivTrain4>
             {quotes?.map((q, index) => (
-              <Bubble key={`quote-${index}`} img={kanyemojis[index]} index={index} className={index % 2 ? 'left' : 'right'}>
+              <Bubble key={`${new Date().getTime()}`} img={kanyemojis[index]} index={index} className={index % 2 ? 'left' : 'right'}>
                 {q}
               </Bubble>
             ))}
