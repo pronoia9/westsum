@@ -7,10 +7,7 @@ const original = {
 };
 
 export const lightTheme = {
-  darkest: '#27374D',
-  dark: '#526D82',
-  light: '#9DB2BF',
-  lightest: '#DDE6ED',
+  ...original,
   background: original.lightest,
   background2: original.light,
   font: original.darkest,
@@ -21,10 +18,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  darkest: '#27374D',
-  dark: '#526D82',
-  light: '#9DB2BF',
-  lightest: '#DDE6ED',
+  ...original,
   background: original.darkest,
   background2: original.dark,
   font: original.lightest,
