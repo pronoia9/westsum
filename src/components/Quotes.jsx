@@ -151,7 +151,7 @@ const Bubble = styled.p`
   line-height: 150%;
   word-wrap: break-word;
   ${(props) => css`
-    animation: ${showBubble} 1.1s ${props.index / 2}s both;
+    animation: ${showBubble} 1.1s ${props.index * 0.25}s both;
   `}
 
   &:before {
