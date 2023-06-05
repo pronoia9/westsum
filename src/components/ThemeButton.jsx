@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
+import { isDarkTheme, toggleTheme } from '../utils/utils';
+
 const CloudsSVG = ({ back = false }) =>
   back ? (
     <svg aria-hidden={true} className='toggle__backdrop' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 290 228'>
@@ -118,17 +120,12 @@ const StarsSVG = () => (
   </svg>
 );
 
-export default function ThemeButton() {
+export default function ThemeButton({ theme, setTheme }) {
   return (
     <Container>
-      {/* <button onClick={toggleTheme}>
-          {isDarkTheme ? (<span aria-label='Light mode' role='img'>🌞</span>) : (<span aria-label='Dark mode' role='img'>🌜</span>
-          )}
-        </button> */}
-      <button className='toggle' aria-pressed='false' title='Toggle Dark Mode'>
+      <button className='toggle' aria-pressed={isDarkTheme(theme) ? true : false} title='Theme Button' onClick={() => toggleTheme(theme, setTheme)}>
         <span className='toggle__content'>
           <CloudsSVG back={true} />
-
           <CloudsSVG />
           <span className='toggle__indicator-wrapper'>
             <span className='toggle__indicator'>
