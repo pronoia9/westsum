@@ -53,31 +53,23 @@ const DivTrain2 = styled.div`
     content: '';
     display: table;
   }
-
-  & > [class*='o-col'] {
-    float: left;
-  }
 `;
 
 const DivTrain3 = styled.div`
   box-sizing: border-box;
+  width: 100%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  position: relative;
-  width: 100%;
-
-  @media (min-width: 992px) {
-    margin-left: 33.33333%;
-    width: 66.66667%;
-  }
-
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
+  position: relative;
   align-items: flex-start;
 
   @media (min-width: 992px) {
-    align-items: center;
+    width: 66.66667%;
+    margin-left: 33.33333%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 `;
