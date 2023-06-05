@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { gsap } from 'gsap';
 
+import { kanyemojis } from './data';
+
 export const isDarkTheme = (theme) => theme === 'dark';
 
 export const toggleTheme = (theme, setTheme) => setTheme(isDarkTheme(theme) ? 'light' : 'dark');
@@ -48,7 +50,7 @@ export const heroAnimation = (imageRefs, backgroundRefs, buttonRef) => {
   tl.to(backgroundRefs.current[2], 1, { opacity: 0 }, 10);
 };
 
-export const fetchQuotes = async (setQuotes, count) => {
+export const fetchQuotes = async (setQuotes, count, setAvatars) => {
   try {
     const fetchedQuotes = [];
     while (fetchedQuotes.length < count) {
@@ -56,8 +58,17 @@ export const fetchQuotes = async (setQuotes, count) => {
       const quote = response.data;
       if (!fetchedQuotes.includes(quote)) fetchedQuotes.push(quote);
     }
+    setAvatars(randomizeArray(kanyemojis))
     setQuotes(fetchedQuotes);
   } catch (error) {
     console.error(error);
   }
 };
+
+export const randomizeArray = (arr) => {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
