@@ -29,12 +29,8 @@ export default function Quotes({ quotes, avatars }) {
         <DivTrain3>
           <DivTrain4>
             {quotes?.map((q, index) => (
-              <Bubble
-                key={`${index}-${q}`}
-                img={avatars[index % avatars.length]}
-                index={index}
-                className={index % 2 ? 'left' : 'right'}
-              >
+              <Bubble key={`quote-${index}-${q}`} img={avatars[index % avatars.length]} index={index} className={index % 2 ? 'left' : 'right'}>
+                <Avatar src={avatars[index % avatars.length]} index={index} className={index % 2 ? 'left' : 'right'} />
                 {q}
               </Bubble>
             ))}
@@ -141,21 +137,10 @@ const Bubble = styled.p`
     animation: ${showBubble} 1.1s ${props.index * 0.25}s both;
   `}
 
-  &:before {
-    position: absolute;
-    top: -10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    content: '';
-    background-size: cover;
-    background-image: url(${(props) => props.img});
-  }
-
   &:after {
     position: absolute;
-    top: 10px;
     content: '';
+    top: 10px;
     width: 0;
     height: 0;
     border-top: 10px solid ${({ theme }) => theme.chatBubble};
@@ -165,13 +150,13 @@ const Bubble = styled.p`
     float: right;
     margin-right: 65px;
 
-    &:before {
-      right: -65px;
-    }
-
     &:after {
       border-right: 10px solid transparent;
       right: -10px;
+    }
+
+    img {
+      right: -65px;
     }
   }
 
@@ -179,13 +164,21 @@ const Bubble = styled.p`
     float: left;
     margin-left: 65px;
 
-    &:before {
-      left: -65px;
-    }
-
     &:after {
       border-left: 10px solid transparent;
       left: -10px;
     }
+
+    img {
+      left: -65px;
+    }
   }
+`;
+
+const Avatar = styled.img`
+  position: absolute;
+  top: -10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 `;
