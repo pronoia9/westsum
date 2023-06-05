@@ -1,6 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import ThemeButton from './ThemeButton';
 
-export default function HeroMaker() {
+export default function HeroMaker({ theme, setTheme }) {
   return (
     <CMaker>
       <p>
@@ -9,6 +10,7 @@ export default function HeroMaker() {
           He made this.
         </a>
       </p>
+      <ThemeButton theme={theme} setTheme={setTheme} />
     </CMaker>
   );
 }
@@ -19,14 +21,15 @@ const CMaker = styled.div`
   top: 0;
   padding: 1.5em;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 
   p,
   a {
     color: #fff;
-  }
-
-  span {
-    opacity: 0.7;
+    margin: 0;
   }
 
   a {

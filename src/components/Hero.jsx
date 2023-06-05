@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 import { HeroMaker, HeroTitle, HeroImage, HeroBackground } from './';
 
-export default function Hero({ imageRefs, backgroundRefs }) {
+export default function Hero({ imageRefs, backgroundRefs, theme, setTheme }) {
   return (
     <>
       <CHero>
         <OContainer>
           <ORow>
-            <HeroMaker />
+            <HeroMaker theme={theme} setTheme={setTheme} />
             <HeroTitle />
             <HeroImage imageRefs={imageRefs} />
           </ORow>
