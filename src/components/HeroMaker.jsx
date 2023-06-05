@@ -25,10 +25,10 @@ const CMaker = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
-
+  
   p,
   a {
-    color: #fff;
+    color: ${({ theme }) => theme.fontMaker};
     margin: 0;
   }
 

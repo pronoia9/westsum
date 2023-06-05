@@ -76,7 +76,7 @@ const DivTrain3 = styled.div`
 
 const TextContainer = styled.div`
   text-align: center;
-  background: ${({ theme }) => theme.inputBarBg};
+  background: ${({ theme }) => theme.background2};
   padding: 12px 30px;
   color: ${({ theme }) => theme.font};
   font-size: 20px;
@@ -130,8 +130,8 @@ const TextItem = styled.div`
   input {
     appearance: none;
     color: ${({ theme }) => theme.font};
-    background-color: ${({ theme }) => theme.inputBarBg};
-    border-color: ${({ theme }) => theme.font2};
+    background-color: ${({ theme }) => theme.background2};
+    border-color: ${({ theme }) => theme.input};
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
@@ -149,7 +149,7 @@ const TextItem = styled.div`
     vertical-align: middle;
 
     &::placeholder {
-      color: ${({ theme }) => theme.font2};
+      color: ${({ theme }) => theme.input};
     }
 
     &:focus {

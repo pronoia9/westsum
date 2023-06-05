@@ -27,7 +27,8 @@ const Wrapper = styled.div`
   h1 {
     font-size: 70px;
     letter-spacing: -2px;
-    color: #fff;
+    /* color: #fff; */
+    color: ${({ theme }) => theme.fontTitle};
     margin: 1.5em 0 0;
     font-weight: 600;
     text-align: right;
@@ -36,7 +37,8 @@ const Wrapper = styled.div`
   h2 {
     font-weight: 500;
     font-size: 24px;
-    color: #fff;
+    /* color: #fff; */
+    color: ${({ theme }) => theme.fontTitle};
     margin: 0.3em 0 4em;
     text-align: right;
   }
@@ -50,7 +52,7 @@ const Wrapper = styled.div`
     }
 
     h2 {
-      color: #fff;
+      /* color: #fff; */
       text-align: left;
       font-size: 39px;
       margin: 0 0 110px;
