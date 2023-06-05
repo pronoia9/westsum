@@ -2,22 +2,26 @@
 const original = {
   darkest: '#27374D',
   dark: '#526D82',
-  light: '#DDE6ED',
-  lightest: '#9DB2BF',
+  light: '#9DB2BF',
+  lightest: '#DDE6ED',
 };
 
 export const lightTheme = {
-  background: original.light,
-  background2: original.lightest,
+  background: original.lightest,
+  background2: original.light,
   font: original.darkest,
   font2: original.dark,
-  inputBarBg: original.light,
+  inputBarBg: original.lightest,
+  chatBubble: original.light,
+  chatFont: original.darkest,
 };
 
 export const darkTheme = {
   background: original.darkest,
   background2: original.dark,
-  font: original.light,
-  font2: original.lightest,
+  font: original.lightest,
+  font2: original.light,
   inputBarBg: original.dark,
+  chatBubble: original.dark,
+  chatFont: original.lightest,
 };
