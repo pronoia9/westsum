@@ -46,3 +46,5 @@ export const heroAnimation = (imageRefs, backgroundRefs, buttonRef) => {
   tl.to(buttonRef.current, 0.5, { backgroundColor: '#0551B4' }, 10);
   tl.to(backgroundRefs.current[2], 1, { opacity: 0 }, 10);
 };
+
+export const fetchQuotes = async () => {}
