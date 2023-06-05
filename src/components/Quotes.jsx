@@ -20,7 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
+
+import { kanyemojis } from '../utils/data';
 
 export default function Quotes() {
   return (
@@ -28,12 +30,12 @@ export default function Quotes() {
       <DivTrain2>
         <DivTrain3>
           <DivTrain4>
-            {/* <p image={`/src/assets/kanyemoji-8.png`} class='right'>
+            <Bubble img={kanyemojis[0]} className='right'>
               Are we dogs??? 🐶
-            </p>
-            <p image={`/src/assets/kanyemoji-8.png`} class='left'>
+            </Bubble>
+            <Bubble img={kanyemojis[1]} className='left'>
               no... we're human
-            </p> */}
+            </Bubble>
           </DivTrain4>
         </DivTrain3>
       </DivTrain2>
@@ -86,77 +88,75 @@ const DivTrain4 = styled.div`
     margin-left: 16.66667%;
   }
 
-  p {
-    position: relative;
-    clear: both;
-    display: inline-block;
-    max-width: 81%;
-    padding: 14px;
-    margin: 0 0 20px 0;
-    border-radius: 10px;
-    background-color: ${({ theme }) => theme.chatBubble};
-    /* font: 12px/16px 'Noto Sans', sans-serif; */
-    color: ${({ theme }) => theme.chatFont};
-    font-size: 20px;
-    line-height: 150%;
-    word-wrap: break-word;
-
-    &:before {
-      position: absolute;
-      top: 0;
-      width: 25px;
-      height: 25px;
-      border-radius: 25px;
-      content: '';
-      background-size: cover;
-    }
-
-    &:after {
-      position: absolute;
-      top: 10px;
-      content: '';
-      width: 0;
-      height: 0;
-      border-top: 10px solid ${({ theme }) => theme.chatBubble};
-    }
-
-    &.right {
-      animation: show-chat-odd 0.15s 1 ease-in;
-      float: right;
-      margin-right: 45px;
-
-      &:before {
-        right: -45px;
-        background-image: url(/src/assets/kanyemoji-8.png);
-      }
-
-      &:after {
-        border-right: 10px solid transparent;
-        right: -10px;
-      }
-    }
-
-    &.left {
-      animation: show-chat-even 0.15s 1 ease-in;
-      float: left;
-      margin-left: 45px;
-
-      &:before {
-        left: -45px;
-        background-image: url(/src/assets/kanyemoji-8.png);
-      }
-
-      &:after {
-        border-left: 10px solid transparent;
-        left: -10px;
-      }
-    }
-  }
-
   @media (min-width: 992px) {
     p {
       font-size: 20px;
       line-height: 150%;
+    }
+  }
+`;
+
+const Bubble = styled.p`
+  position: relative;
+  clear: both;
+  display: inline-block;
+  max-width: 81%;
+  padding: 14px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  background-color: ${({ theme }) => theme.chatBubble};
+  /* font: 12px/16px 'Noto Sans', sans-serif; */
+  color: ${({ theme }) => theme.chatFont};
+  font-size: 20px;
+  line-height: 150%;
+  word-wrap: break-word;
+  animation: show-chat-odd 0.15s 1 ease-in;
+
+  &:before {
+    position: absolute;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    content: '';
+    background-size: cover;
+    background-image: url(${(props) => props.img});
+  }
+
+  &:after {
+    position: absolute;
+    top: 10px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid ${({ theme }) => theme.chatBubble};
+  }
+
+  &.right {
+    float: right;
+    margin-right: 65px;
+
+    &:before {
+      right: -65px;
+    }
+
+    &:after {
+      border-right: 10px solid transparent;
+      right: -10px;
+    }
+  }
+
+  &.left {
+    float: left;
+    margin-left: 65px;
+
+    &:before {
+      left: -65px;
+    }
+
+    &:after {
+      border-left: 10px solid transparent;
+      left: -10px;
     }
   }
 `;
