@@ -69,30 +69,6 @@ const showBubble = keyframes`
     animation-timing-function: ease-out;
     opacity: 1;
   }
-  55% {
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  72% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  81% {
-    -webkit-transform: scale(0.84);
-    transform: scale(0.84);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  89% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
   95% {
     -webkit-transform: scale(0.95);
     transform: scale(0.95);
@@ -164,9 +140,9 @@ const Bubble = styled.p`
   position: relative;
   clear: both;
   display: inline-block;
-  max-width: 81%;
+  max-width: 50%;
   padding: 14px;
-  margin: 0 0 20px 0;
+  margin: 0 0 50px 0;
   border-radius: 10px;
   background-color: ${({ theme }) => theme.chatBubble};
   /* font: 12px/16px 'Noto Sans', sans-serif; */
