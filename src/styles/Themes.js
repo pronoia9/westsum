@@ -1,9 +1,15 @@
+// https://colorhunt.co/palette/27374d526d829db2bfdde6ed
+
 export const lightTheme = {
-  body: '#ffffff',
-  text: '#121620',
+  background: '#DDE6ED',
+  background2: '#9DB2BF',
+  font: '#27374D',
+  font2: '#526D82',
 };
 
 export const darkTheme = {
-  body: '#121620',
-  text: '#f1f1f1',
+  background: '#27374D',
+  background2: '#526D82',
+  font: '#DDE6ED',
+  font2: '#9DB2BF',
 };
