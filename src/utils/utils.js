@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { gsap } from 'gsap';
 
 export const isDarkTheme = (theme) => theme === 'dark';
@@ -47,4 +48,16 @@ export const heroAnimation = (imageRefs, backgroundRefs, buttonRef) => {
   tl.to(backgroundRefs.current[2], 1, { opacity: 0 }, 10);
 };
 
-export const fetchQuotes = async () => {}
+export const fetchQuotes = async (setQuotes, count) => {
+  try {
+    const fetchedQuotes = [];
+    while (fetchedQuotes.length < count) {
+      const response = await axios.get('https://api.kanye.rest/text');
+      const quote = response.data;
+      if (!fetchedQuotes.includes(quote)) fetchedQuotes.push(quote);
+    }
+    setQuotes(fetchedQuotes);
+  } catch (error) {
+    console.error(error);
+  }
+};
