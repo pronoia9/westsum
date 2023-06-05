@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export default function InputBar({ buttonRef }) {
+import { fetchQuotes } from '../utils/utils';
+
+export default function InputBar({ buttonRef, count, setCount, setQuotes }) {
+  const handleChange = (e) => setCount(e.target.value);
   return (
     <DivTrain1>
       <DivTrain2>
@@ -16,7 +19,7 @@ export default function InputBar({ buttonRef }) {
                   </TextItem>
                   {/* INPUT */}
                   <TextItem>
-                    <input name='numberOfParagraphs' placeholder='5' type='number' max='99' min='2' />
+                    <input name='numberOfParagraphs' value={count} type='number' max='15' min='2' onChange={handleChange} />
                   </TextItem>
                   {/* RIGHT TEXT */}
                   <TextItem>
@@ -26,7 +29,7 @@ export default function InputBar({ buttonRef }) {
               </TextContainer>
 
               {/* RIGHT - BUTTON */}
-              <Button ref={buttonRef}>Receive the West.</Button>
+              <Button ref={buttonRef} onClick={() => fetchQuotes(setQuotes, count)}>Receive the West.</Button>
             </DivTrain5>
           </DivTrain4>
         </DivTrain3>
