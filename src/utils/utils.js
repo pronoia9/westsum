@@ -56,7 +56,7 @@ export const fetchQuotes = async (setQuotes, count, setAvatars, quotes) => {
     while (fetchedQuotes.length < count) {
       const response = await axios.get('https://api.kanye.rest/text');
       const quote = response.data;
-      if (!fetchedQuotes.includes(quote) && !quotes.includes(quote)) fetchedQuotes.push(quote);
+      if (!fetchedQuotes.includes(quote) && !quotes?.includes(quote)) fetchedQuotes.push(quote);
     }
     setAvatars(randomizeArray(kanyemojis));
     setQuotes(fetchedQuotes);
