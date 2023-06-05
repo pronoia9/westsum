@@ -1,73 +1,55 @@
-import styled from 'styled-components';
+// The MIT License (MIT)
+
+// Copyright (c) 2023 neil kalman (https://codepen.io/thatkookooguy/pen/VPJpaW)
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
+import styled, { css } from 'styled-components';
 
 export default function Quotes() {
   return (
-    <Content>
-      <Container>
-        <Row>
-          <Col>
-            <div>
-              <p>
-                Non aliquip aute consectetur veniam minim esse aute adipisicing exercitation. Sunt sit in qui est ut aute. Nisi sint irure proident et
-                eiusmod quis in sit enim. Sint dolore elit occaecat sunt ex deserunt duis id et dolore aliqua cupidatat nisi irure. Deserunt veniam
-                nostrud laboris labore eu est non proident commodo ut amet laboris aute commodo. Anim tempor eiusmod aliqua dolor irure dolore in sit
-                nostrud nostrud nulla laborum. Mollit magna enim excepteur velit elit id enim adipisicing.
-              </p>
-              <p>
-                Exercitation proident deserunt consectetur aliquip deserunt incididunt ullamco laboris eiusmod sint est nulla sit ea. Dolore
-                consectetur quis irure do proident quis ex aliquip exercitation. Dolore occaecat minim fugiat pariatur esse occaecat veniam.
-                Adipisicing irure ipsum laboris sint est ullamco anim ad amet. Incididunt mollit Lorem voluptate mollit irure quis culpa dolor
-                pariatur. Duis officia dolore tempor aute do tempor nulla minim magna.
-              </p>
-              <p>
-                Ullamco amet excepteur voluptate voluptate ipsum ipsum voluptate. Minim eiusmod eu exercitation ullamco enim sint pariatur voluptate
-                laboris. Sit non nisi sit quis quis laborum laborum velit exercitation id dolore proident ipsum.
-              </p>
-              <p>
-                Cupidatat aliquip officia non deserunt est veniam anim aute cupidatat tempor adipisicing irure officia. Non cillum cupidatat dolor
-                sunt do ipsum. Ad anim irure cupidatat ut ipsum adipisicing aliqua non quis tempor ut excepteur. Enim et duis esse consectetur enim
-                tempor irure et dolore Lorem consectetur. Non cillum veniam duis est eiusmod laborum nulla. Consectetur pariatur cupidatat quis
-                proident mollit non sunt labore laboris sint laborum.
-              </p>
-              <p>
-                Ut reprehenderit incididunt id amet fugiat nisi exercitation cupidatat sunt dolore deserunt. Elit voluptate occaecat eiusmod dolor
-                quis aliqua sunt ullamco adipisicing. Eiusmod fugiat sint irure tempor enim elit officia. Laborum ex velit id voluptate aliquip veniam
-                excepteur nulla eu id pariatur. Nulla deserunt incididunt commodo aliquip est minim quis ut. Anim cillum commodo esse laboris tempor
-                adipisicing laborum enim ea laboris ex. Ad eu dolor cillum Lorem occaecat consequat nisi qui.
-              </p>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </Content>
+    <DivTrain1>
+      <DivTrain2>
+        <DivTrain3>
+          <DivTrain4>
+            {/* <p image={`/src/assets/kanyemoji-8.png`} class='right'>
+              Are we dogs??? 🐶
+            </p>
+            <p image={`/src/assets/kanyemoji-8.png`} class='left'>
+              no... we're human
+            </p> */}
+          </DivTrain4>
+        </DivTrain3>
+      </DivTrain2>
+    </DivTrain1>
   );
 }
 
-const Content = styled.div`
+const DivTrain1 = styled.div`
   padding: 0 0 5em;
-
-  p {
-    font-size: 20px;
-    /* color: #394956; */
-    line-height: 150%;
-    margin: 0;
-  }
-
-  p + p {
-    margin-top: 2em;
-  }
 
   @media (min-width: 992px) {
     padding: 5.5em 0 6.5em;
-
-    p {
-      font-size: 20px;
-      line-height: 150%;
-    }
   }
 `;
 
-const Container = styled.div`
+const DivTrain2 = styled.div`
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +58,7 @@ const Container = styled.div`
   padding-right: 15px;
 `;
 
-const Row = styled.div`
+const DivTrain3 = styled.div`
   box-sizing: border-box;
   margin-left: -15px;
   margin-right: -15px;
@@ -88,13 +70,93 @@ const Row = styled.div`
   }
 `;
 
-const Col = styled.div`
+const DivTrain4 = styled.div`
   float: left;
   box-sizing: border-box;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  width: 66.66667%;
-  margin-left: 16.66667%;
+  padding: 0 15px;
+  margin: 0;
+  width: 100%;
+
+  @media (min-width: 992px) {
+    width: 66.66667%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    margin-left: 16.66667%;
+  }
+
+  p {
+    position: relative;
+    clear: both;
+    display: inline-block;
+    max-width: 81%;
+    padding: 14px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    background-color: ${({ theme }) => theme.chatBubble};
+    /* font: 12px/16px 'Noto Sans', sans-serif; */
+    color: ${({ theme }) => theme.chatFont};
+    font-size: 20px;
+    line-height: 150%;
+    word-wrap: break-word;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+      content: '';
+      background-size: cover;
+    }
+
+    &:after {
+      position: absolute;
+      top: 10px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 10px solid ${({ theme }) => theme.chatBubble};
+    }
+
+    &.right {
+      animation: show-chat-odd 0.15s 1 ease-in;
+      float: right;
+      margin-right: 45px;
+
+      &:before {
+        right: -45px;
+        background-image: url(/src/assets/kanyemoji-8.png);
+      }
+
+      &:after {
+        border-right: 10px solid transparent;
+        right: -10px;
+      }
+    }
+
+    &.left {
+      animation: show-chat-even 0.15s 1 ease-in;
+      float: left;
+      margin-left: 45px;
+
+      &:before {
+        left: -45px;
+        background-image: url(/src/assets/kanyemoji-8.png);
+      }
+
+      &:after {
+        border-left: 10px solid transparent;
+        left: -10px;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    p {
+      font-size: 20px;
+      line-height: 150%;
+    }
+  }
 `;
