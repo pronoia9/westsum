@@ -65,7 +65,6 @@ const App = () => {
     <ThemeProvider theme={isDarkTheme(theme) ? darkTheme : lightTheme}>
       <>
         <GlobalStyles />
-        <ThemeButton />
         <Hero imageRefs={imageRefs} backgroundRefs={backgroundRefs} />
         <InputBar buttonRef={buttonRef} />
         <Quotes />
