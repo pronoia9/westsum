@@ -18,16 +18,17 @@ export const lightTheme = {
 // https://colorhunt.co/palette/27374d526d829db2bfdde6ed
 // https://colorhunt.co/palette/222831393e4600adb5eeeeee
 // https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa
+// https://colorhunt.co/palette/6e85b7b2c8dfc4d7e0f8f9d7
 export const darkTheme = {
-  font: '#DDE6ED',
   background: '#222831',
   background2: '#393E46',
 
   fontTitle: '#222831',
   fontMaker: '#27374D',
 
+  font: '#C4D7E0',
   input: '#9DB2BF',
 
   chatBubble: '#364F6B',
-  chatFont: '#D6E6F2',
+  chatFont: '#B2C8DF',
 };
