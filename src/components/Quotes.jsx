@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export default function Quotes() {
   return (
-    <div className='c-content'>
-      <div className='o-container'>
-        <div className='o-row'>
-          <div className='o-col-10 o-col-offset-1 o-col-8@md o-col-offset-2@md'>
-            <div className='generated-text'>
+    <Content>
+      <Container>
+        <Row>
+          <Col>
+            <div>
               <p>
                 Non aliquip aute consectetur veniam minim esse aute adipisicing exercitation. Sunt sit in qui est ut aute. Nisi sint irure proident et
                 eiusmod quis in sit enim. Sint dolore elit occaecat sunt ex deserunt duis id et dolore aliqua cupidatat nisi irure. Deserunt veniam
@@ -36,19 +36,19 @@ export default function Quotes() {
                 adipisicing laborum enim ea laboris ex. Ad eu dolor cillum Lorem occaecat consequat nisi qui.
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Col>
+        </Row>
+      </Container>
+    </Content>
   );
 }
 
-const CContent = styled.div`
+const Content = styled.div`
   padding: 0 0 5em;
 
   p {
     font-size: 20px;
-    color: #394956;
+    /* color: #394956; */
     line-height: 150%;
     margin: 0;
   }
@@ -67,22 +67,16 @@ const CContent = styled.div`
   }
 `;
 
-const OContainer = styled.div`
+const Container = styled.div`
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
   max-width: 1140px;
   padding-left: 15px;
   padding-right: 15px;
-
-  /* &.fluid { max-width: 100%; }
-  &.responsive { max-width: 100%; }
-  @media (min-width: 544px) { &.responsive {  max-width: 576px; } }
-  @media (min-width: 768px) { &.responsive { max-width: 720px; } } 
-  @media (min-width: 992px) { &.responsive { max-width: 940px; } } */
 `;
 
-const ORow = styled.div`
+const Row = styled.div`
   box-sizing: border-box;
   margin-left: -15px;
   margin-right: -15px;
@@ -92,4 +86,15 @@ const ORow = styled.div`
     content: '';
     display: table;
   }
+`;
+
+const Col = styled.div`
+  float: left;
+  box-sizing: border-box;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 66.66667%;
+  margin-left: 16.66667%;
 `;
