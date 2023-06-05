@@ -27,9 +27,9 @@ import { toggleTheme } from '../utils/utils';
 export default function ThemeButton({ theme, setTheme }) {
   return (
     <Container>
-      <label id='switch' class='switch'>
+      <label id='switch' className='switch'>
         <input type='checkbox' onChange={() => toggleTheme(theme, setTheme)} id='slider' />
-        <span class='slider round'></span>
+        <span className='slider round'></span>
       </label>
     </Container>
   );
