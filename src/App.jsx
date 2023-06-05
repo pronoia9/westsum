@@ -30,7 +30,7 @@ const App = () => {
       <>
         <GlobalStyles />
         <Hero imageRefs={imageRefs} backgroundRefs={backgroundRefs} theme={theme} setTheme={setTheme} />
-        <InputBar buttonRef={buttonRef} count={count} setCount={setCount} setQuotes={setQuotes} setAvatars={setAvatars} />
+        <InputBar buttonRef={buttonRef} count={count} setCount={setCount} quotes={quotes} setQuotes={setQuotes} setAvatars={setAvatars} />
         <Quotes quotes={quotes} avatars={avatars} />
       </>
     </ThemeProvider>

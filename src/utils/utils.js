@@ -50,15 +50,15 @@ export const heroAnimation = (imageRefs, backgroundRefs, buttonRef) => {
   tl.to(backgroundRefs.current[2], 1, { opacity: 0 }, 10);
 };
 
-export const fetchQuotes = async (setQuotes, count, setAvatars) => {
+export const fetchQuotes = async (setQuotes, count, setAvatars, quotes) => {
   try {
     const fetchedQuotes = [];
     while (fetchedQuotes.length < count) {
       const response = await axios.get('https://api.kanye.rest/text');
       const quote = response.data;
-      if (!fetchedQuotes.includes(quote)) fetchedQuotes.push(quote);
+      if (!fetchedQuotes.includes(quote) && !quotes.includes(quote)) fetchedQuotes.push(quote);
     }
-    setAvatars(randomizeArray(kanyemojis))
+    setAvatars(randomizeArray(kanyemojis));
     setQuotes(fetchedQuotes);
   } catch (error) {
     console.error(error);

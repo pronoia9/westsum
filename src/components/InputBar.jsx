@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { fetchQuotes } from '../utils/utils';
 
-export default function InputBar({ buttonRef, count, setCount, setQuotes, setAvatars }) {
+export default function InputBar({ buttonRef, count, setCount, quotes, setQuotes, setAvatars }) {
   const handleChange = (e) => setCount(e.target.value);
   return (
     <DivTrain1>
@@ -29,7 +29,9 @@ export default function InputBar({ buttonRef, count, setCount, setQuotes, setAva
               </TextContainer>
 
               {/* RIGHT - BUTTON */}
-              <Button ref={buttonRef} onClick={() => fetchQuotes(setQuotes, count, setAvatars)}>Receive the West.</Button>
+              <Button ref={buttonRef} onClick={() => fetchQuotes(setQuotes, count, setAvatars, quotes)}>
+                Receive the West.
+              </Button>
             </DivTrain5>
           </DivTrain4>
         </DivTrain3>
