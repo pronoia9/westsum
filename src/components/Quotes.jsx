@@ -22,16 +22,19 @@
 
 import styled, { css, keyframes } from 'styled-components';
 
-import { kanyemojis } from '../utils/data';
-
-export default function Quotes({ quotes }) {
+export default function Quotes({ quotes, avatars }) {
   return (
     <DivTrain1>
       <DivTrain2>
         <DivTrain3>
           <DivTrain4>
             {quotes?.map((q, index) => (
-              <Bubble key={`${q}-${new Date().getTime()}-${index}`} img={kanyemojis[index]} index={index} className={index % 2 ? 'left' : 'right'}>
+              <Bubble
+                key={`${index}-${q}`}
+                img={avatars[index % avatars.length]}
+                index={index}
+                className={index % 2 ? 'left' : 'right'}
+              >
                 {q}
               </Bubble>
             ))}
