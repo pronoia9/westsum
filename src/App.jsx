@@ -4,13 +4,12 @@ import { ThemeProvider } from 'styled-components';
 import { Hero, InputBar, Quotes } from './components';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme, lightTheme } from './styles/Themes';
-import { kanyemojis } from './utils/data';
 import { heroAnimation, isDarkTheme, systemThemeChangeHandler } from './utils/utils';
 
 const App = () => {
   // STATE
   const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  const [count, setCount] = useState(5), [quotes, setQuotes] = useState(), [avatars, setAvatars] = useState(kanyemojis);
+  const [count, setCount] = useState(5), [quotes, setQuotes] = useState(), [avatars, setAvatars] = useState();
   // REFS
   const imageRefs = useRef([]),
     backgroundRefs = useRef([]),
