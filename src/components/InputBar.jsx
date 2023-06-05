@@ -5,30 +5,26 @@ export default function InputBar({ buttonRef }) {
     <DivTrain1>
       <DivTrain2>
         <DivTrain3>
-          <DivTrain4>
-            <DivTrain5>
-              {/* LEFT - TEXT & INPUT */}
-              <TextContainer>
-                <TextWrapper>
-                  {/* LEFT TEXT */}
-                  <TextItem>
-                    <span>Gimme like</span>
-                  </TextItem>
-                  {/* INPUT */}
-                  <TextItem>
-                    <input name='numberOfParagraphs' placeholder='5' type='number' max='99' min='2' />
-                  </TextItem>
-                  {/* RIGHT TEXT */}
-                  <TextItem>
-                    <span>quotes of that Kanye West.</span>
-                  </TextItem>
-                </TextWrapper>
-              </TextContainer>
+            {/* LEFT - TEXT & INPUT */}
+            <TextContainer>
+              <TextWrapper>
+                {/* LEFT TEXT */}
+                <TextItem>
+                  <span>Gimme like</span>
+                </TextItem>
+                {/* INPUT */}
+                <TextItem>
+                  <input name='numberOfParagraphs' placeholder='5' type='number' max='99' min='2' />
+                </TextItem>
+                {/* RIGHT TEXT */}
+                <TextItem>
+                  <span>quotes of that Kanye West.</span>
+                </TextItem>
+              </TextWrapper>
+            </TextContainer>
 
-              {/* RIGHT - BUTTON */}
-              <Button ref={buttonRef}>Receive the West.</Button>
-            </DivTrain5>
-          </DivTrain4>
+            {/* RIGHT - BUTTON */}
+            <Button ref={buttonRef}>Receive the West.</Button>
         </DivTrain3>
       </DivTrain2>
     </DivTrain1>
@@ -39,9 +35,6 @@ const DivTrain1 = styled.div`
   position: relative;
   z-index: 20;
   top: -40px;
-`;
-
-const DivTrain2 = styled.div`
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
@@ -50,7 +43,7 @@ const DivTrain2 = styled.div`
   padding-right: 15px;
 `;
 
-const DivTrain3 = styled.div`
+const DivTrain2 = styled.div`
   box-sizing: border-box;
   margin-left: -15px;
   margin-right: -15px;
@@ -66,7 +59,7 @@ const DivTrain3 = styled.div`
   }
 `;
 
-const DivTrain4 = styled.div`
+const DivTrain3 = styled.div`
   box-sizing: border-box;
   min-height: 1px;
   padding-left: 15px;
@@ -78,9 +71,7 @@ const DivTrain4 = styled.div`
     margin-left: 33.33333%;
     width: 66.66667%;
   }
-`;
 
-const DivTrain5 = styled.div`
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
   align-items: flex-start;
 
