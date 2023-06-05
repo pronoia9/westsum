@@ -2,48 +2,46 @@ import styled from 'styled-components';
 
 export default function InputBar({ buttonRef }) {
   return (
-    <CForm>
-      <OContainer>
-        <ORow>
-          <OCol>
-            <Form>
-              <OFlexy>
-                {/* LEFT - TEXT & INPUT */}
-                <OFlexyBlock>
-                  <OInline>
-                    {/* LEFT TEXT */}
-                    <OInlineItem>
-                      <span>Gimme like</span>
-                    </OInlineItem>
-                    {/* INPUT */}
-                    <OInlineItem>
-                      <input name='numberOfParagraphs' placeholder='5' type='number' max='99' min='2' />
-                    </OInlineItem>
-                    {/* RIGHT TEXT */}
-                    <OInlineItem>
-                      <span>quotes of that Kanye West.</span>
-                    </OInlineItem>
-                  </OInline>
-                </OFlexyBlock>
+    <DivTrain1>
+      <DivTrain2>
+        <DivTrain3>
+          <DivTrain4>
+            <DivTrain5>
+              {/* LEFT - TEXT & INPUT */}
+              <TextContainer>
+                <TextWrapper>
+                  {/* LEFT TEXT */}
+                  <TextItem>
+                    <span>Gimme like</span>
+                  </TextItem>
+                  {/* INPUT */}
+                  <TextItem>
+                    <input name='numberOfParagraphs' placeholder='5' type='number' max='99' min='2' />
+                  </TextItem>
+                  {/* RIGHT TEXT */}
+                  <TextItem>
+                    <span>quotes of that Kanye West.</span>
+                  </TextItem>
+                </TextWrapper>
+              </TextContainer>
 
-                {/* RIGHT - BUTTON */}
-                <Button ref={buttonRef}>Receive the West.</Button>
-              </OFlexy>
-            </Form>
-          </OCol>
-        </ORow>
-      </OContainer>
-    </CForm>
+              {/* RIGHT - BUTTON */}
+              <Button ref={buttonRef}>Receive the West.</Button>
+            </DivTrain5>
+          </DivTrain4>
+        </DivTrain3>
+      </DivTrain2>
+    </DivTrain1>
   );
 }
 
-const CForm = styled.div`
+const DivTrain1 = styled.div`
   position: relative;
   z-index: 20;
   top: -40px;
 `;
 
-const OContainer = styled.div`
+const DivTrain2 = styled.div`
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +50,7 @@ const OContainer = styled.div`
   padding-right: 15px;
 `;
 
-const ORow = styled.div`
+const DivTrain3 = styled.div`
   box-sizing: border-box;
   margin-left: -15px;
   margin-right: -15px;
@@ -68,7 +66,7 @@ const ORow = styled.div`
   }
 `;
 
-const OCol = styled.div`
+const DivTrain4 = styled.div`
   box-sizing: border-box;
   min-height: 1px;
   padding-left: 15px;
@@ -82,9 +80,7 @@ const OCol = styled.div`
   }
 `;
 
-const Form = styled.form``;
-
-const OFlexy = styled.div`
+const DivTrain5 = styled.div`
   box-shadow: 0 23px 50px -13px rgba(0, 0, 0, 0.3);
   align-items: flex-start;
 
@@ -95,9 +91,9 @@ const OFlexy = styled.div`
   }
 `;
 
-const OFlexyBlock = styled.div`
+const TextContainer = styled.div`
   text-align: center;
-  background: ${({ theme }) => theme.background2};
+  background: ${({ theme }) => theme.inputBarBg};
   padding: 12px 30px;
   color: ${({ theme }) => theme.font};
   font-size: 20px;
@@ -112,7 +108,7 @@ const OFlexyBlock = styled.div`
   }
 `;
 
-const OInline = styled.div`
+const TextWrapper = styled.div`
   box-sizing: border-box;
   display: block;
   list-style: none;
@@ -132,7 +128,7 @@ const OInline = styled.div`
   }
 `;
 
-const OInlineItem = styled.div`
+const TextItem = styled.div`
   box-sizing: border-box;
   display: inline-block;
   margin: 0 0 4px;
@@ -151,7 +147,7 @@ const OInlineItem = styled.div`
   input {
     appearance: none;
     color: ${({ theme }) => theme.font};
-    background-color: ${({ theme }) => theme.background2};
+    background-color: ${({ theme }) => theme.inputBarBg};
     border-color: ${({ theme }) => theme.font2};
     border-radius: 3px;
     border-style: solid;
@@ -198,7 +194,7 @@ const Button = styled.button`
   max-width: 100%;
   min-width: 0;
   background: #0551b4;
-  color: #DDE6ED;
+  color: #dde6ed;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.5px;
