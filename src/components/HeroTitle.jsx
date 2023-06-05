@@ -12,12 +12,21 @@ export default function HeroTitle() {
 }
 
 const Container = styled.div`
-  width: 83.33333%;
-  margin-left: 8.33333%;
   width: 75%;
-  margin-left: 25%;
   margin-left: 20%;
   float: left;
+
+  @media (min-width: 992px) {
+    margin-left: 2.5%;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: 10%;
+  }
+
+  @media (min-width: 1280px) {
+    margin-left: 20%;
+  }
 `;
 
 const Wrapper = styled.div`
